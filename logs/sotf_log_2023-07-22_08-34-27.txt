@@ -173,3 +173,55 @@
 [09:06:23.380][Log]  Autosave complete. Time: 2023-07-22 09:06:23 Slot: 1
 [09:16:23.534][Log]  Autosave complete. Time: 2023-07-22 09:16:23 Slot: 1
 [09:26:23.671][Log]  Autosave complete. Time: 2023-07-22 09:26:23 Slot: 1
+[09:36:23.795][Log]  Autosave complete. Time: 2023-07-22 09:36:23 Slot: 1
+[09:39:05.734][Log]  Incoming client connection with auth ticket
+[09:39:05.735][Log]  Steam auth successful for client 2 with steam id 76561197997335881, username Guppy
+[09:39:05.758][Log]  Server waking up...
+[09:39:05.758][Log]  Set target framerate: 60
+[09:39:24.051][Log]  Sending blob of size 416636 on channel 2 to [Connection [EndPoint 192.168.1.1:55619 | 13882346955176204611]]
+[09:39:24.059][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:55619 | 13882346955176204611]]
+[09:39:24.097][Log]  Sending blob of size 121783 on channel 1 to [Connection [EndPoint 192.168.1.1:55619 | 13882346955176204611]]
+[09:46:23.742][Log]  Autosave complete. Time: 2023-07-22 09:46:23 Slot: 1
+[09:53:54.297][Exception]  System.ArgumentException: Kernel 'loadTexelMap' not found.
+  at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[09:53:54.301][Exception]    at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[09:56:23.786][Log]  Autosave complete. Time: 2023-07-22 09:56:23 Slot: 1
+[10:06:23.807][Log]  Autosave complete. Time: 2023-07-22 10:06:23 Slot: 1
+[10:16:23.826][Log]  Autosave complete. Time: 2023-07-22 10:16:23 Slot: 1
+[10:26:23.849][Log]  Autosave complete. Time: 2023-07-22 10:26:23 Slot: 1
