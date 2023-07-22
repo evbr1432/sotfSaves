@@ -1,0 +1,452 @@
+[06:40:33.893][Log]  [Self-Tests] Running self tests...
+[06:40:33.894][Log]  [Self-Tests] [AppId] App ID is correct.
+[06:40:33.894][Log]  [Self-Tests] [Settings] Validating game settings file format...
+[06:40:33.899][Log]  [Self-Tests] [Settings] Game settings file is valid.
+[06:40:33.899][Log]  [Self-Tests] [Config] Validating server config file and command line arguments...
+[06:40:33.901][Log]  Server configuration is valid. More... 
+{
+  "IpAddress": "0.0.0.0",
+  "GamePort": 8766,
+  "QueryPort": 27016,
+  "BlobSyncPort": 9700,
+  "ServerName": "BEEGSONS-9440",
+  "MaxPlayers": 8,
+  "Password": "deesh285",
+  "LanOnly": false,
+  "SaveSlot": 1,
+  "SaveMode": "Continue",
+  "GameMode": "Normal",
+  "SaveInterval": 600,
+  "IdleDayCycleSpeed": 0.0,
+  "IdleTargetFramerate": 5,
+  "ActiveTargetFramerate": 60,
+  "LogFilesEnabled": true,
+  "TimestampLogFilenames": true,
+  "TimestampLogEntries": true,
+  "SkipNetworkAccessibilityTest": false,
+  "GameSettings": {},
+  "CustomGameModeSettings": {}
+}
+[06:40:33.901][Log]  [Self-Tests] [Config] Dedicated Server configuration file is valid.
+[06:40:33.901][Log]  [Self-Tests] [Networking] Testing public accessibility...
+[06:40:36.072][Log]  [Self-Tests] [Networking] Testing server ports against public ip 24.8.87.201...
+[06:40:36.112][Log]  [Self-Tests] [Networking] UDP GamePort [8766] is open.
+[06:40:36.145][Log]  [Self-Tests] [Networking] UDP QueryPort [27016] is open.
+[06:40:36.178][Log]  [Self-Tests] [Networking] UDP BlobSyncPort [9700] is open.
+[06:40:36.179][Log]  [Self-Tests] Self tests passed.
+[06:40:36.179][Log]  [Dedicated] Starting Sons of the Forest Dedicated Server...
+[06:40:38.935][Log]  [Dedicated] Loading game settings.
+[06:40:38.935][Log]  [Dedicated] CustomGameModeSettings: no value found for Gameplay.TreeRegrowth. Using default value.
+[06:40:38.936][Log]  [Dedicated] CustomGameModeSettings: no value found for Structure.Damage. Using default value.
+[06:40:38.949][Log]  [Dedicated] SaveMode is Continue. Save found, loading save. Game mode is Normal
+[06:40:40.667][Log]  Steam server created.
+[06:40:40.668][Log]  Server name: BEEGSONS-9440
+[06:40:40.668][Log]  Max players: 8
+[06:40:40.668][Log]  Starting server...
+[06:40:56.502][Log]  Loading progress: 0
+[06:40:57.003][Log]  Loading progress: 3
+[06:40:57.506][Log]  Loading progress: 4
+[06:40:58.007][Log]  Loading progress: 4
+[06:40:58.509][Log]  Loading progress: 5
+[06:40:59.011][Log]  Loading progress: 5
+[06:40:59.514][Log]  Loading progress: 5
+[06:41:00.015][Log]  Loading progress: 6
+[06:41:00.517][Log]  Loading progress: 6
+[06:41:01.019][Log]  Loading progress: 6
+[06:41:01.521][Log]  Loading progress: 6
+[06:41:02.023][Log]  Loading progress: 6
+[06:41:02.524][Log]  Loading progress: 6
+[06:41:03.026][Log]  Loading progress: 6
+[06:41:03.529][Log]  Loading progress: 6
+[06:41:04.031][Log]  Loading progress: 6
+[06:41:04.532][Log]  Loading progress: 6
+[06:41:05.033][Log]  Loading progress: 6
+[06:41:05.534][Log]  Loading progress: 7
+[06:41:06.036][Log]  Loading progress: 11
+[06:41:06.537][Log]  Loading progress: 18
+[06:41:07.038][Log]  Loading progress: 21
+[06:41:07.560][Log]  Loading progress: 25
+[06:41:08.077][Log]  Loading progress: 28
+[06:41:08.585][Log]  Loading progress: 35
+[06:41:09.103][Log]  Loading progress: 36
+[06:41:09.604][Log]  Loading progress: 36
+[06:41:10.115][Log]  Loading progress: 36
+[06:41:10.624][Log]  Loading progress: 38
+[06:41:11.137][Log]  Loading progress: 39
+[06:41:11.650][Log]  Loading progress: 40
+[06:41:12.153][Log]  Loading progress: 42
+[06:41:12.672][Log]  Loading progress: 43
+[06:41:13.191][Log]  Loading progress: 46
+[06:41:13.710][Log]  Loading progress: 53
+[06:41:14.224][Log]  Loading progress: 58
+[06:41:14.725][Log]  Loading progress: 64
+[06:41:15.226][Log]  Loading progress: 68
+[06:41:15.734][Log]  Loading progress: 72
+[06:41:16.248][Log]  Loading progress: 72
+[06:41:16.749][Log]  Loading progress: 72
+[06:41:17.250][Log]  Loading progress: 72
+[06:41:17.777][Log]  Loading progress: 72
+[06:41:18.278][Log]  Loading progress: 72
+[06:41:18.779][Log]  Loading progress: 72
+[06:41:19.283][Log]  Loading progress: 72
+[06:41:19.786][Log]  Loading progress: 72
+[06:41:20.287][Log]  Loading progress: 72
+[06:41:21.515][Log]  Loading progress: 72
+[06:41:22.048][Log]  Loading progress: 72
+[06:41:22.550][Log]  Loading progress: 72
+[06:41:23.060][Log]  Loading progress: 72
+[06:41:23.561][Log]  Loading progress: 72
+[06:41:24.062][Log]  Loading progress: 72
+[06:41:24.565][Log]  Loading progress: 72
+[06:41:25.066][Log]  Loading progress: 72
+[06:41:25.568][Log]  Loading progress: 72
+[06:41:26.069][Log]  Loading progress: 72
+[06:41:26.570][Log]  Loading progress: 72
+[06:41:27.074][Log]  Loading progress: 72
+[06:41:27.607][Log]  Loading progress: 72
+[06:41:28.108][Log]  Loading progress: 72
+[06:41:28.611][Log]  Loading progress: 72
+[06:41:29.113][Log]  Loading progress: 72
+[06:41:29.615][Log]  Loading progress: 72
+[06:41:30.116][Log]  Loading progress: 72
+[06:41:30.617][Log]  Loading progress: 72
+[06:41:37.188][Log]  Loading progress: 72
+[06:41:37.706][Log]  Loading progress: 72
+[06:41:42.285][Log]  Loading progress: 72
+[06:41:42.790][Log]  Loading progress: 72
+[06:41:43.305][Log]  Loading progress: 72
+[06:41:43.827][Log]  Loading progress: 72
+[06:41:44.368][Log]  Loading progress: 73
+[06:41:44.881][Log]  Loading progress: 73
+[06:41:45.389][Log]  Loading progress: 73
+[06:41:45.908][Log]  Loading progress: 73
+[06:41:46.409][Log]  Loading progress: 73
+[06:41:46.912][Log]  Loading progress: 73
+[06:41:47.414][Log]  Loading progress: 73
+[06:41:47.916][Log]  Loading progress: 73
+[06:41:48.418][Log]  Loading progress: 73
+[06:41:49.012][Log]  Loading progress: 74
+[06:41:49.528][Log]  Loading progress: 74
+[06:41:50.029][Log]  Loading progress: 74
+[06:41:50.530][Log]  Loading progress: 74
+[06:41:51.031][Log]  Loading progress: 74
+[06:41:51.534][Log]  Loading progress: 74
+[06:41:52.036][Log]  Loading progress: 74
+[06:41:52.538][Log]  Loading progress: 74
+[06:41:53.039][Log]  Loading progress: 74
+[06:41:53.565][Log]  Loading progress: 74
+[06:41:54.066][Log]  Loading progress: 74
+[06:41:54.569][Log]  Loading progress: 74
+[06:41:55.070][Log]  Loading progress: 74
+[06:41:55.571][Log]  Loading progress: 74
+[06:41:56.072][Log]  Loading progress: 74
+[06:41:56.574][Log]  Loading progress: 74
+[06:41:57.076][Log]  Loading progress: 74
+[06:41:57.577][Log]  Loading progress: 74
+[06:41:58.087][Log]  Loading progress: 74
+[06:41:58.591][Log]  Loading progress: 74
+[06:41:59.093][Log]  Loading progress: 74
+[06:41:59.593][Log]  Loading progress: 74
+[06:42:00.126][Log]  Loading progress: 74
+[06:42:00.631][Log]  Loading progress: 74
+[06:42:01.132][Log]  Loading progress: 74
+[06:42:01.822][Log]  Loading progress: 75
+[06:42:02.336][Log]  Loading progress: 75
+[06:42:02.837][Log]  Loading progress: 75
+[06:42:03.340][Log]  Loading progress: 75
+[06:42:03.840][Log]  Loading progress: 75
+[06:42:04.343][Log]  Loading progress: 75
+[06:42:04.844][Log]  Loading progress: 75
+[06:42:05.346][Log]  Loading progress: 75
+[06:42:05.875][Log]  Loading progress: 75
+[06:42:06.379][Log]  Loading progress: 75
+[06:42:06.880][Log]  Loading progress: 75
+[06:42:07.381][Log]  Loading progress: 75
+[06:42:07.884][Log]  Loading progress: 75
+[06:42:08.385][Log]  Loading progress: 75
+[06:42:08.887][Log]  Loading progress: 75
+[06:42:09.418][Log]  Loading progress: 75
+[06:42:09.922][Log]  Loading progress: 76
+[06:42:10.423][Log]  Loading progress: 76
+[06:42:10.926][Log]  Loading progress: 76
+[06:42:11.461][Log]  Loading progress: 76
+[06:42:11.963][Log]  Loading progress: 76
+[06:42:12.465][Log]  Loading progress: 76
+[06:42:12.966][Log]  Loading progress: 76
+[06:42:14.170][Log]  Loading progress: 76
+[06:42:14.687][Log]  Loading progress: 76
+[06:42:15.187][Log]  Loading progress: 76
+[06:42:15.688][Log]  Loading progress: 76
+[06:42:16.190][Log]  Loading progress: 76
+[06:42:16.692][Log]  Loading progress: 76
+[06:42:17.193][Log]  Loading progress: 76
+[06:42:18.242][Log]  Loading progress: 76
+[06:42:20.191][Log]  Loading progress: 76
+[06:42:20.706][Log]  Loading progress: 76
+[06:42:21.209][Log]  Loading progress: 76
+[06:42:21.711][Log]  Loading progress: 76
+[06:42:22.213][Log]  Loading progress: 76
+[06:42:22.714][Log]  Loading progress: 76
+[06:42:23.217][Log]  Loading progress: 76
+[06:42:23.751][Log]  Loading progress: 76
+[06:42:25.756][Log]  Loading progress: 77
+[06:42:26.257][Log]  Loading progress: 77
+[06:42:26.761][Log]  Loading progress: 77
+[06:42:27.263][Log]  Loading progress: 77
+[06:42:27.764][Log]  Loading progress: 77
+[06:42:28.265][Log]  Loading progress: 77
+[06:42:28.768][Log]  Loading progress: 77
+[06:42:31.508][Log]  Loading progress: 80
+[06:42:32.032][Log]  Loading progress: 100
+[06:42:32.533][Log]  Loading progress: 100
+[06:42:34.586][Log]  Autosave complete. Time: 2023-07-21 06:42:34 Slot: 1
+[06:42:34.873][Log]  Server empty, idling...
+[06:42:34.873][Log]  Set target framerate: 5
+[06:42:34.873][Log]  Dedicated server loaded.
+[06:43:15.205][Log]  Incoming client connection with auth ticket
+[06:43:15.206][Log]  Steam auth successful for client 2 with steam id 76561198830758517, username GMN
+[06:43:15.224][Log]  Server waking up...
+[06:43:15.224][Log]  Set target framerate: 60
+[06:43:20.550][Log]  Incoming client connection with auth ticket
+[06:43:20.550][Log]  Steam auth successful for client 3 with steam id 76561198043774248, username KnukaFish
+[06:43:24.740][Log]  Incoming client connection with auth ticket
+[06:43:24.740][Log]  Steam auth successful for client 4 with steam id 76561197997335881, username Guppy
+[06:43:33.833][Log]  Sending blob of size 405422 on channel 2 to [Connection [EndPoint 76.120.39.188:51384 | 5510197832495188152]]
+[06:43:33.839][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 76.120.39.188:51384 | 5510197832495188152]]
+[06:43:33.878][Log]  Sending blob of size 120257 on channel 1 to [Connection [EndPoint 76.120.39.188:51384 | 5510197832495188152]]
+[06:43:34.202][Log]  Sending blob of size 405422 on channel 2 to [Connection [EndPoint 71.211.91.107:55318 | 5175580911898515478]]
+[06:43:34.205][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 71.211.91.107:55318 | 5175580911898515478]]
+[06:43:34.257][Log]  Sending blob of size 120257 on channel 1 to [Connection [EndPoint 71.211.91.107:55318 | 5175580911898515478]]
+[06:43:41.436][Log]  Incoming client connection with auth ticket
+[06:43:41.436][Log]  Steam auth successful for client 5 with steam id 76561198018804056, username Borgadai
+[06:43:59.716][Log]  Sending blob of size 407971 on channel 2 to [Connection [EndPoint 192.168.1.1:61075 | 13882346955176210067]]
+[06:43:59.720][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:61075 | 13882346955176210067]]
+[06:43:59.771][Log]  Sending blob of size 120257 on channel 1 to [Connection [EndPoint 192.168.1.1:61075 | 13882346955176210067]]
+[06:44:13.700][Log]  Sending blob of size 407971 on channel 2 to [Connection [EndPoint 24.9.50.114:49400 | 1731970996908376312]]
+[06:44:13.702][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 24.9.50.114:49400 | 1731970996908376312]]
+[06:44:13.730][Log]  Sending blob of size 119925 on channel 1 to [Connection [EndPoint 24.9.50.114:49400 | 1731970996908376312]]
+[06:44:36.369][Exception]  System.ArgumentException: Kernel 'loadTexelMap' not found.
+  at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[06:44:36.373][Exception]    at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[06:52:34.840][Log]  Autosave complete. Time: 2023-07-21 06:52:34 Slot: 1
+[07:02:34.777][Log]  Autosave complete. Time: 2023-07-21 07:02:34 Slot: 1
+[07:03:06.547][Log]  Client disconnected
+[07:03:06.547][Log]  Unregistering client 4 with steam id 76561197997335881, username Guppy
+[07:03:32.022][Log]  Client disconnected
+[07:03:32.023][Log]  Unregistering client 3 with steam id 76561198043774248, username KnukaFish
+[07:03:35.755][Log]  Client disconnected
+[07:03:35.755][Log]  Unregistering client 5 with steam id 76561198018804056, username Borgadai
+[07:03:43.059][Log]  Client disconnected
+[07:03:43.059][Log]  Unregistering client 2 with steam id 76561198830758517, username GMN
+[07:03:43.066][Log]  Server empty, idling...
+[07:03:43.066][Log]  Set target framerate: 5
+[07:12:34.765][Log]  Autosave complete. Time: 2023-07-21 07:12:34 Slot: 1
+[07:22:34.894][Log]  Autosave complete. Time: 2023-07-21 07:22:34 Slot: 1
+[07:32:35.039][Log]  Autosave complete. Time: 2023-07-21 07:32:35 Slot: 1
+[07:42:35.202][Log]  Autosave complete. Time: 2023-07-21 07:42:35 Slot: 1
+[07:52:35.354][Log]  Autosave complete. Time: 2023-07-21 07:52:35 Slot: 1
+[08:02:35.498][Log]  Autosave complete. Time: 2023-07-21 08:02:35 Slot: 1
+[08:12:35.630][Log]  Autosave complete. Time: 2023-07-21 08:12:35 Slot: 1
+[08:22:35.825][Log]  Autosave complete. Time: 2023-07-21 08:22:35 Slot: 1
+[08:32:35.957][Log]  Autosave complete. Time: 2023-07-21 08:32:35 Slot: 1
+[08:42:36.085][Log]  Autosave complete. Time: 2023-07-21 08:42:36 Slot: 1
+[08:52:36.241][Log]  Autosave complete. Time: 2023-07-21 08:52:36 Slot: 1
+[09:02:36.384][Log]  Autosave complete. Time: 2023-07-21 09:02:36 Slot: 1
+[09:12:36.533][Log]  Autosave complete. Time: 2023-07-21 09:12:36 Slot: 1
+[09:22:36.675][Log]  Autosave complete. Time: 2023-07-21 09:22:36 Slot: 1
+[09:32:36.806][Log]  Autosave complete. Time: 2023-07-21 09:32:36 Slot: 1
+[09:42:36.956][Log]  Autosave complete. Time: 2023-07-21 09:42:36 Slot: 1
+[09:52:37.120][Log]  Autosave complete. Time: 2023-07-21 09:52:37 Slot: 1
+[10:02:37.245][Log]  Autosave complete. Time: 2023-07-21 10:02:37 Slot: 1
+[10:12:37.389][Log]  Autosave complete. Time: 2023-07-21 10:12:37 Slot: 1
+[10:22:37.561][Log]  Autosave complete. Time: 2023-07-21 10:22:37 Slot: 1
+[10:32:37.716][Log]  Autosave complete. Time: 2023-07-21 10:32:37 Slot: 1
+[10:42:37.852][Log]  Autosave complete. Time: 2023-07-21 10:42:37 Slot: 1
+[10:52:37.978][Log]  Autosave complete. Time: 2023-07-21 10:52:37 Slot: 1
+[11:02:38.114][Log]  Autosave complete. Time: 2023-07-21 11:02:38 Slot: 1
+[11:12:38.248][Log]  Autosave complete. Time: 2023-07-21 11:12:38 Slot: 1
+[11:22:38.376][Log]  Autosave complete. Time: 2023-07-21 11:22:38 Slot: 1
+[11:32:38.530][Log]  Autosave complete. Time: 2023-07-21 11:32:38 Slot: 1
+[11:42:38.677][Log]  Autosave complete. Time: 2023-07-21 11:42:38 Slot: 1
+[11:52:38.822][Log]  Autosave complete. Time: 2023-07-21 11:52:38 Slot: 1
+[12:02:38.969][Log]  Autosave complete. Time: 2023-07-21 12:02:38 Slot: 1
+[12:12:38.996][Log]  Autosave complete. Time: 2023-07-21 12:12:38 Slot: 1
+[12:22:39.118][Log]  Autosave complete. Time: 2023-07-21 12:22:39 Slot: 1
+[12:32:39.254][Log]  Autosave complete. Time: 2023-07-21 12:32:39 Slot: 1
+[12:42:39.384][Log]  Autosave complete. Time: 2023-07-21 12:42:39 Slot: 1
+[12:52:39.532][Log]  Autosave complete. Time: 2023-07-21 12:52:39 Slot: 1
+[13:02:39.692][Log]  Autosave complete. Time: 2023-07-21 13:02:39 Slot: 1
+[13:12:39.838][Log]  Autosave complete. Time: 2023-07-21 13:12:39 Slot: 1
+[13:22:39.976][Log]  Autosave complete. Time: 2023-07-21 13:22:39 Slot: 1
+[13:32:40.119][Log]  Autosave complete. Time: 2023-07-21 13:32:40 Slot: 1
+[13:42:40.269][Log]  Autosave complete. Time: 2023-07-21 13:42:40 Slot: 1
+[13:52:40.422][Log]  Autosave complete. Time: 2023-07-21 13:52:40 Slot: 1
+[14:02:40.457][Log]  Autosave complete. Time: 2023-07-21 14:02:40 Slot: 1
+[14:12:40.617][Log]  Autosave complete. Time: 2023-07-21 14:12:40 Slot: 1
+[14:22:40.785][Log]  Autosave complete. Time: 2023-07-21 14:22:40 Slot: 1
+[14:32:40.932][Log]  Autosave complete. Time: 2023-07-21 14:32:40 Slot: 1
+[14:42:41.073][Log]  Autosave complete. Time: 2023-07-21 14:42:41 Slot: 1
+[14:52:41.240][Log]  Autosave complete. Time: 2023-07-21 14:52:41 Slot: 1
+[15:02:41.378][Log]  Autosave complete. Time: 2023-07-21 15:02:41 Slot: 1
+[15:12:41.493][Log]  Autosave complete. Time: 2023-07-21 15:12:41 Slot: 1
+[15:22:41.635][Log]  Autosave complete. Time: 2023-07-21 15:22:41 Slot: 1
+[15:32:41.766][Log]  Autosave complete. Time: 2023-07-21 15:32:41 Slot: 1
+[15:42:41.909][Log]  Autosave complete. Time: 2023-07-21 15:42:41 Slot: 1
+[15:52:42.077][Log]  Autosave complete. Time: 2023-07-21 15:52:42 Slot: 1
+[16:02:42.211][Log]  Autosave complete. Time: 2023-07-21 16:02:42 Slot: 1
+[16:12:42.350][Log]  Autosave complete. Time: 2023-07-21 16:12:42 Slot: 1
+[16:22:42.487][Log]  Autosave complete. Time: 2023-07-21 16:22:42 Slot: 1
+[16:32:42.609][Log]  Autosave complete. Time: 2023-07-21 16:32:42 Slot: 1
+[16:42:42.744][Log]  Autosave complete. Time: 2023-07-21 16:42:42 Slot: 1
+[16:52:42.876][Log]  Autosave complete. Time: 2023-07-21 16:52:42 Slot: 1
+[17:02:43.038][Log]  Autosave complete. Time: 2023-07-21 17:02:43 Slot: 1
+[17:12:43.194][Log]  Autosave complete. Time: 2023-07-21 17:12:43 Slot: 1
+[17:22:43.363][Log]  Autosave complete. Time: 2023-07-21 17:22:43 Slot: 1
+[17:32:43.518][Log]  Autosave complete. Time: 2023-07-21 17:32:43 Slot: 1
+[17:42:43.664][Log]  Autosave complete. Time: 2023-07-21 17:42:43 Slot: 1
+[17:52:43.810][Log]  Autosave complete. Time: 2023-07-21 17:52:43 Slot: 1
+[18:02:43.964][Log]  Autosave complete. Time: 2023-07-21 18:02:43 Slot: 1
+[18:12:44.101][Log]  Autosave complete. Time: 2023-07-21 18:12:44 Slot: 1
+[18:22:44.248][Log]  Autosave complete. Time: 2023-07-21 18:22:44 Slot: 1
+[18:32:44.392][Log]  Autosave complete. Time: 2023-07-21 18:32:44 Slot: 1
+[18:42:44.530][Log]  Autosave complete. Time: 2023-07-21 18:42:44 Slot: 1
+[18:52:44.647][Log]  Autosave complete. Time: 2023-07-21 18:52:44 Slot: 1
+[19:02:44.771][Log]  Autosave complete. Time: 2023-07-21 19:02:44 Slot: 1
+[19:12:44.915][Log]  Autosave complete. Time: 2023-07-21 19:12:44 Slot: 1
+[19:22:45.060][Log]  Autosave complete. Time: 2023-07-21 19:22:45 Slot: 1
+[19:32:45.196][Log]  Autosave complete. Time: 2023-07-21 19:32:45 Slot: 1
+[19:42:45.321][Log]  Autosave complete. Time: 2023-07-21 19:42:45 Slot: 1
+[19:52:45.446][Log]  Autosave complete. Time: 2023-07-21 19:52:45 Slot: 1
+[20:02:45.604][Log]  Autosave complete. Time: 2023-07-21 20:02:45 Slot: 1
+[20:12:45.776][Log]  Autosave complete. Time: 2023-07-21 20:12:45 Slot: 1
+[20:22:45.920][Log]  Autosave complete. Time: 2023-07-21 20:22:45 Slot: 1
+[20:32:46.071][Log]  Autosave complete. Time: 2023-07-21 20:32:46 Slot: 1
+[20:42:46.209][Log]  Autosave complete. Time: 2023-07-21 20:42:46 Slot: 1
+[20:52:46.356][Log]  Autosave complete. Time: 2023-07-21 20:52:46 Slot: 1
+[21:02:46.504][Log]  Autosave complete. Time: 2023-07-21 21:02:46 Slot: 1
+[21:12:46.675][Log]  Autosave complete. Time: 2023-07-21 21:12:46 Slot: 1
+[21:22:46.809][Log]  Autosave complete. Time: 2023-07-21 21:22:46 Slot: 1
+[21:32:46.924][Log]  Autosave complete. Time: 2023-07-21 21:32:46 Slot: 1
+[21:42:47.056][Log]  Autosave complete. Time: 2023-07-21 21:42:47 Slot: 1
+[21:52:47.199][Log]  Autosave complete. Time: 2023-07-21 21:52:47 Slot: 1
+[22:02:47.370][Log]  Autosave complete. Time: 2023-07-21 22:02:47 Slot: 1
+[22:12:47.503][Log]  Autosave complete. Time: 2023-07-21 22:12:47 Slot: 1
+[22:22:47.678][Log]  Autosave complete. Time: 2023-07-21 22:22:47 Slot: 1
+[22:32:47.839][Log]  Autosave complete. Time: 2023-07-21 22:32:47 Slot: 1
+[22:42:47.971][Log]  Autosave complete. Time: 2023-07-21 22:42:47 Slot: 1
+[22:52:48.123][Log]  Autosave complete. Time: 2023-07-21 22:52:48 Slot: 1
+[23:02:48.262][Log]  Autosave complete. Time: 2023-07-21 23:02:48 Slot: 1
+[23:12:48.407][Log]  Autosave complete. Time: 2023-07-21 23:12:48 Slot: 1
+[23:22:48.555][Log]  Autosave complete. Time: 2023-07-21 23:22:48 Slot: 1
+[23:32:48.712][Log]  Autosave complete. Time: 2023-07-21 23:32:48 Slot: 1
+[23:42:48.861][Log]  Autosave complete. Time: 2023-07-21 23:42:48 Slot: 1
+[23:52:49.006][Log]  Autosave complete. Time: 2023-07-21 23:52:49 Slot: 1
+[00:02:49.138][Log]  Autosave complete. Time: 2023-07-22 00:02:49 Slot: 1
+[00:12:49.268][Log]  Autosave complete. Time: 2023-07-22 00:12:49 Slot: 1
+[00:22:49.389][Log]  Autosave complete. Time: 2023-07-22 00:22:49 Slot: 1
+[00:32:49.533][Log]  Autosave complete. Time: 2023-07-22 00:32:49 Slot: 1
+[00:42:49.689][Log]  Autosave complete. Time: 2023-07-22 00:42:49 Slot: 1
+[00:52:49.813][Log]  Autosave complete. Time: 2023-07-22 00:52:49 Slot: 1
+[01:02:49.961][Log]  Autosave complete. Time: 2023-07-22 01:02:49 Slot: 1
+[01:12:50.105][Log]  Autosave complete. Time: 2023-07-22 01:12:50 Slot: 1
+[01:22:50.263][Log]  Autosave complete. Time: 2023-07-22 01:22:50 Slot: 1
+[01:32:50.381][Log]  Autosave complete. Time: 2023-07-22 01:32:50 Slot: 1
+[01:42:50.520][Log]  Autosave complete. Time: 2023-07-22 01:42:50 Slot: 1
+[01:52:50.657][Log]  Autosave complete. Time: 2023-07-22 01:52:50 Slot: 1
+[02:02:50.742][Log]  Autosave complete. Time: 2023-07-22 02:02:50 Slot: 1
+[02:12:50.934][Log]  Autosave complete. Time: 2023-07-22 02:12:50 Slot: 1
+[02:22:51.087][Log]  Autosave complete. Time: 2023-07-22 02:22:51 Slot: 1
+[02:32:51.228][Log]  Autosave complete. Time: 2023-07-22 02:32:51 Slot: 1
+[02:42:51.376][Log]  Autosave complete. Time: 2023-07-22 02:42:51 Slot: 1
+[02:52:51.502][Log]  Autosave complete. Time: 2023-07-22 02:52:51 Slot: 1
+[03:02:51.654][Log]  Autosave complete. Time: 2023-07-22 03:02:51 Slot: 1
+[03:12:51.796][Log]  Autosave complete. Time: 2023-07-22 03:12:51 Slot: 1
+[03:22:51.943][Log]  Autosave complete. Time: 2023-07-22 03:22:51 Slot: 1
+[03:32:52.107][Log]  Autosave complete. Time: 2023-07-22 03:32:52 Slot: 1
+[03:42:52.247][Log]  Autosave complete. Time: 2023-07-22 03:42:52 Slot: 1
+[03:52:52.401][Log]  Autosave complete. Time: 2023-07-22 03:52:52 Slot: 1
+[04:02:52.516][Log]  Autosave complete. Time: 2023-07-22 04:02:52 Slot: 1
+[04:12:52.656][Log]  Autosave complete. Time: 2023-07-22 04:12:52 Slot: 1
+[04:22:52.822][Log]  Autosave complete. Time: 2023-07-22 04:22:52 Slot: 1
+[04:32:52.973][Log]  Autosave complete. Time: 2023-07-22 04:32:52 Slot: 1
+[04:42:53.132][Log]  Autosave complete. Time: 2023-07-22 04:42:53 Slot: 1
+[04:52:53.315][Log]  Autosave complete. Time: 2023-07-22 04:52:53 Slot: 1
+[05:02:53.446][Log]  Autosave complete. Time: 2023-07-22 05:02:53 Slot: 1
+[05:12:53.579][Log]  Autosave complete. Time: 2023-07-22 05:12:53 Slot: 1
+[05:22:53.728][Log]  Autosave complete. Time: 2023-07-22 05:22:53 Slot: 1
+[05:32:53.862][Log]  Autosave complete. Time: 2023-07-22 05:32:53 Slot: 1
+[05:42:54.005][Log]  Autosave complete. Time: 2023-07-22 05:42:54 Slot: 1
+[05:52:54.142][Log]  Autosave complete. Time: 2023-07-22 05:52:54 Slot: 1
+[06:02:54.273][Log]  Autosave complete. Time: 2023-07-22 06:02:54 Slot: 1
+[06:12:54.421][Log]  Autosave complete. Time: 2023-07-22 06:12:54 Slot: 1
+[06:22:54.560][Log]  Autosave complete. Time: 2023-07-22 06:22:54 Slot: 1
+[06:32:54.702][Log]  Autosave complete. Time: 2023-07-22 06:32:54 Slot: 1
+[06:42:54.903][Log]  Autosave complete. Time: 2023-07-22 06:42:54 Slot: 1
+[06:52:55.040][Log]  Autosave complete. Time: 2023-07-22 06:52:55 Slot: 1
+[06:57:29.216][Log]  Incoming client connection with auth ticket
+[06:57:29.216][Log]  Steam auth successful for client 6 with steam id 76561197997335881, username Guppy
+[06:57:29.238][Log]  Server waking up...
+[06:57:29.239][Log]  Set target framerate: 60
+[06:57:46.331][Log]  Sending blob of size 419941 on channel 2 to [Connection [EndPoint 192.168.1.1:54425 | 13882346955176203417]]
+[06:57:46.334][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:54425 | 13882346955176203417]]
+[06:57:46.384][Log]  Sending blob of size 127620 on channel 1 to [Connection [EndPoint 192.168.1.1:54425 | 13882346955176203417]]
+[07:02:55.198][Log]  Autosave complete. Time: 2023-07-22 07:02:55 Slot: 1
+[07:12:55.279][Log]  Autosave complete. Time: 2023-07-22 07:12:55 Slot: 1
+[07:22:55.406][Log]  Autosave complete. Time: 2023-07-22 07:22:55 Slot: 1
+[07:32:55.299][Log]  Autosave complete. Time: 2023-07-22 07:32:55 Slot: 1
+[07:42:55.513][Log]  Autosave complete. Time: 2023-07-22 07:42:55 Slot: 1
+[07:52:55.565][Log]  Autosave complete. Time: 2023-07-22 07:52:55 Slot: 1
+[08:02:55.598][Log]  Autosave complete. Time: 2023-07-22 08:02:55 Slot: 1
+[08:09:07.895][Log]  Client disconnected
+[08:09:07.896][Log]  Unregistering client 6 with steam id 76561197997335881, username Guppy
+[08:09:07.918][Log]  Server empty, idling...
+[08:09:07.918][Log]  Set target framerate: 5
+[08:10:25.995][Log]  Incoming client connection with auth ticket
+[08:10:25.996][Log]  Steam auth successful for client 7 with steam id 76561197997335881, username Guppy
+[08:10:26.011][Log]  Server waking up...
+[08:10:26.012][Log]  Set target framerate: 60
+[08:10:43.309][Log]  Sending blob of size 428572 on channel 2 to [Connection [EndPoint 192.168.1.1:56368 | 13882346955176205360]]
+[08:10:43.311][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:56368 | 13882346955176205360]]
+[08:10:43.344][Log]  Sending blob of size 139326 on channel 1 to [Connection [EndPoint 192.168.1.1:56368 | 13882346955176205360]]
+[08:12:55.497][Log]  Autosave complete. Time: 2023-07-22 08:12:55 Slot: 1
+[08:15:32.006][Log]  Client disconnected
+[08:15:32.006][Log]  Unregistering client 7 with steam id 76561197997335881, username Guppy
+[08:15:32.014][Log]  Server empty, idling...
+[08:15:32.014][Log]  Set target framerate: 5
+[08:22:55.404][Log]  Autosave complete. Time: 2023-07-22 08:22:55 Slot: 1
