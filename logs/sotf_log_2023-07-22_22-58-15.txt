@@ -227,3 +227,7 @@
 [23:10:31.431][Log]  Autosave complete. Time: 2023-07-22 23:10:31 Slot: 1
 [23:20:31.472][Log]  Autosave complete. Time: 2023-07-22 23:20:31 Slot: 1
 [23:30:31.416][Log]  Autosave complete. Time: 2023-07-22 23:30:31 Slot: 1
+[23:35:56.388][Log]  Client disconnected
+[23:35:56.388][Log]  Unregistering client 2 with steam id 76561197997335881, username Guppy
+[23:35:56.404][Log]  Server empty, idling...
+[23:35:56.404][Log]  Set target framerate: 5
