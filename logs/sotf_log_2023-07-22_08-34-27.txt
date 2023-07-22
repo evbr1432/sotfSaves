@@ -231,3 +231,9 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
 [11:06:23.956][Log]  Autosave complete. Time: 2023-07-22 11:06:23 Slot: 1
 [11:16:24.016][Log]  Autosave complete. Time: 2023-07-22 11:16:24 Slot: 1
 [11:26:24.027][Log]  Autosave complete. Time: 2023-07-22 11:26:24 Slot: 1
+[11:34:40.782][Log]  Client disconnected
+[11:34:40.782][Log]  Unregistering client 2 with steam id 76561197997335881, username Guppy
+[11:34:40.800][Log]  Server empty, idling...
+[11:34:40.800][Log]  Set target framerate: 5
+[11:36:24.277][Log]  Autosave complete. Time: 2023-07-22 11:36:24 Slot: 1
+[11:46:24.417][Log]  Autosave complete. Time: 2023-07-22 11:46:24 Slot: 1
