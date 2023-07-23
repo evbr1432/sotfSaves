@@ -328,3 +328,143 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
 [06:40:35.549][Log]  Sending blob of size 160927 on channel 1 to [Connection [EndPoint 24.9.50.114:65332 | 1731970996908392244]]
 [06:49:56.806][Log]  Autosave complete. Time: 2023-07-23 06:49:56 Slot: 1
 [06:59:56.831][Log]  Autosave complete. Time: 2023-07-23 06:59:56 Slot: 1
+[07:02:23.269][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at ParticleScaler.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at FireSphere.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew+FlameVisualController.Toggle (System.Boolean onOff) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.On () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.SetAlight () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.FireMpProxy.ReceiveLightFireAction () [0x00000] in <00000000000000000000000000000000>:0 
+  at FireLightEvent_Meta.Bolt.IEventFactory.Dispatch (Bolt.Event ev, System.Object target) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Raise (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.RaiseLocal (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Dispatch (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.DispatchAllEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltCore.Poll () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltPoll.FixedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FireSphere:OnEnable()
+Construction.FlameVisualController:Toggle(Boolean)
+Construction.CookingFireNew:On()
+Construction.CookingFireNew:SetAlight()
+Construction.FireMpProxy:ReceiveLightFireAction()
+FireLightEvent_Meta:Bolt.IEventFactory.Dispatch(Event, Object)
+Bolt.EventDispatcher:Raise(Event)
+Bolt.EventDispatcher:RaiseLocal(Event)
+Bolt.EventDispatcher:Dispatch(Event)
+Bolt.EventDispatcher:DispatchAllEvents()
+BoltCore:Poll()
+BoltPoll:FixedUpdate()
+
+[07:02:23.273][Exception]    at ParticleScaler.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at FireSphere.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew+FlameVisualController.Toggle (System.Boolean onOff) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.On () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.SetAlight () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.FireMpProxy.ReceiveLightFireAction () [0x00000] in <00000000000000000000000000000000>:0 
+  at FireLightEvent_Meta.Bolt.IEventFactory.Dispatch (Bolt.Event ev, System.Object target) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Raise (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.RaiseLocal (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Dispatch (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.DispatchAllEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltCore.Poll () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltPoll.FixedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FireSphere:OnEnable()
+Construction.FlameVisualController:Toggle(Boolean)
+Construction.CookingFireNew:On()
+Construction.CookingFireNew:SetAlight()
+Construction.FireMpProxy:ReceiveLightFireAction()
+FireLightEvent_Meta:Bolt.IEventFactory.Dispatch(Event, Object)
+Bolt.EventDispatcher:Raise(Event)
+Bolt.EventDispatcher:RaiseLocal(Event)
+Bolt.EventDispatcher:Dispatch(Event)
+Bolt.EventDispatcher:DispatchAllEvents()
+BoltCore:Poll()
+BoltPoll:FixedUpdate()
+
+[07:09:57.021][Log]  Autosave complete. Time: 2023-07-23 07:09:57 Slot: 1
+[07:15:52.183][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:15:52.184][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:17:41.573][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:17:41.598][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:19:09.830][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:19:09.831][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:19:57.064][Log]  Autosave complete. Time: 2023-07-23 07:19:57 Slot: 1
+[07:20:30.317][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:20:30.318][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:29:56.982][Log]  Autosave complete. Time: 2023-07-23 07:29:56 Slot: 1
