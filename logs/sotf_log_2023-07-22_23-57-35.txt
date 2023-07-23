@@ -310,3 +310,13 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
 [05:39:55.943][Log]  Autosave complete. Time: 2023-07-23 05:39:55 Slot: 1
 [05:49:56.117][Log]  Autosave complete. Time: 2023-07-23 05:49:56 Slot: 1
 [05:59:56.287][Log]  Autosave complete. Time: 2023-07-23 05:59:56 Slot: 1
+[06:07:42.988][Log]  Incoming client connection with auth ticket
+[06:07:42.989][Log]  Steam auth successful for client 4 with steam id 76561197997335881, username Guppy
+[06:07:43.009][Log]  Server waking up...
+[06:07:43.009][Log]  Set target framerate: 60
+[06:07:59.838][Log]  Sending blob of size 456481 on channel 2 to [Connection [EndPoint 192.168.1.1:49242 | 13882346955176198234]]
+[06:07:59.840][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:49242 | 13882346955176198234]]
+[06:07:59.888][Log]  Sending blob of size 153489 on channel 1 to [Connection [EndPoint 192.168.1.1:49242 | 13882346955176198234]]
+[06:09:56.480][Log]  Autosave complete. Time: 2023-07-23 06:09:56 Slot: 1
+[06:19:56.761][Log]  Autosave complete. Time: 2023-07-23 06:19:56 Slot: 1
+[06:29:56.752][Log]  Autosave complete. Time: 2023-07-23 06:29:56 Slot: 1
