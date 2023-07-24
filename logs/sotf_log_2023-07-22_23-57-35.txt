@@ -794,3 +794,6 @@ UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
 [09:22:29.459][Log]  Unregistering client 6 with steam id 76561197997335881, username Guppy
 [09:22:29.467][Log]  Server empty, idling...
 [09:22:29.467][Log]  Set target framerate: 5
+[09:30:04.403][Log]  Autosave complete. Time: 2023-07-24 09:30:04 Slot: 1
+[09:40:04.483][Log]  Autosave complete. Time: 2023-07-24 09:40:04 Slot: 1
+[09:50:04.565][Log]  Autosave complete. Time: 2023-07-24 09:50:04 Slot: 1
