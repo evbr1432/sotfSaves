@@ -682,3 +682,86 @@ UnityEngine.Debug:LogException(Exception)
 
 [07:40:04.646][Log]  Autosave complete. Time: 2023-07-24 07:40:04 Slot: 1
 [07:50:04.587][Log]  Autosave complete. Time: 2023-07-24 07:50:04 Slot: 1
+[08:00:04.932][Log]  Autosave complete. Time: 2023-07-24 08:00:04 Slot: 1
+[08:08:56.377][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[08:08:56.378][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[08:10:04.648][Log]  Autosave complete. Time: 2023-07-24 08:10:04 Slot: 1
+[08:20:04.539][Log]  Autosave complete. Time: 2023-07-24 08:20:04 Slot: 1
+[08:27:28.362][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at ParticleScaler.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at FireSphere.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew+FlameVisualController.Toggle (System.Boolean onOff) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.On () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.SetAlight () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.FireMpProxy.ReceiveLightFireAction () [0x00000] in <00000000000000000000000000000000>:0 
+  at FireLightEvent_Meta.Bolt.IEventFactory.Dispatch (Bolt.Event ev, System.Object target) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Raise (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.RaiseLocal (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Dispatch (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.DispatchAllEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltCore.Poll () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltPoll.FixedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FireSphere:OnEnable()
+Construction.FlameVisualController:Toggle(Boolean)
+Construction.CookingFireNew:On()
+Construction.CookingFireNew:SetAlight()
+Construction.FireMpProxy:ReceiveLightFireAction()
+FireLightEvent_Meta:Bolt.IEventFactory.Dispatch(Event, Object)
+Bolt.EventDispatcher:Raise(Event)
+Bolt.EventDispatcher:RaiseLocal(Event)
+Bolt.EventDispatcher:Dispatch(Event)
+Bolt.EventDispatcher:DispatchAllEvents()
+BoltCore:Poll()
+BoltPoll:FixedUpdate()
+
+[08:27:28.365][Exception]    at ParticleScaler.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at FireSphere.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew+FlameVisualController.Toggle (System.Boolean onOff) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.On () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.SetAlight () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.FireMpProxy.ReceiveLightFireAction () [0x00000] in <00000000000000000000000000000000>:0 
+  at FireLightEvent_Meta.Bolt.IEventFactory.Dispatch (Bolt.Event ev, System.Object target) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Raise (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.RaiseLocal (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Dispatch (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.DispatchAllEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltCore.Poll () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltPoll.FixedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FireSphere:OnEnable()
+Construction.FlameVisualController:Toggle(Boolean)
+Construction.CookingFireNew:On()
+Construction.CookingFireNew:SetAlight()
+Construction.FireMpProxy:ReceiveLightFireAction()
+FireLightEvent_Meta:Bolt.IEventFactory.Dispatch(Event, Object)
+Bolt.EventDispatcher:Raise(Event)
+Bolt.EventDispatcher:RaiseLocal(Event)
+Bolt.EventDispatcher:Dispatch(Event)
+Bolt.EventDispatcher:DispatchAllEvents()
+BoltCore:Poll()
+BoltPoll:FixedUpdate()
+
