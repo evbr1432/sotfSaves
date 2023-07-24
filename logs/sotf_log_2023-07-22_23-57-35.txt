@@ -643,3 +643,42 @@ UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
 [07:00:04.635][Log]  Autosave complete. Time: 2023-07-24 07:00:04 Slot: 1
 [07:10:04.498][Log]  Autosave complete. Time: 2023-07-24 07:10:04 Slot: 1
 [07:20:04.215][Log]  Autosave complete. Time: 2023-07-24 07:20:04 Slot: 1
+[07:30:05.113][Log]  Autosave complete. Time: 2023-07-24 07:30:05 Slot: 1
+[07:30:18.319][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:30:18.320][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[07:36:09.037][Exception]  System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[T].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.GetViewerPositions (System.Int32& localIdx) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ThreadedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+
+[07:36:09.038][Exception]    at System.Collections.Generic.List`1+Enumerator[T].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.GetViewerPositions (System.Int32& localIdx) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ThreadedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+
+[07:40:04.646][Log]  Autosave complete. Time: 2023-07-24 07:40:04 Slot: 1
+[07:50:04.587][Log]  Autosave complete. Time: 2023-07-24 07:50:04 Slot: 1
