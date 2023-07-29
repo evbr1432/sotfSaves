@@ -301,3 +301,14 @@ UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
 [07:05:08.132][Log]  Autosave complete. Time: 2023-07-29 07:05:08 Slot: 1
 [07:15:08.233][Log]  Autosave complete. Time: 2023-07-29 07:15:08 Slot: 1
 [07:25:08.174][Log]  Autosave complete. Time: 2023-07-29 07:25:08 Slot: 1
+[07:35:08.325][Log]  Autosave complete. Time: 2023-07-29 07:35:08 Slot: 1
+[07:45:08.264][Log]  Autosave complete. Time: 2023-07-29 07:45:08 Slot: 1
+[07:47:35.141][Log]  Client disconnected
+[07:47:35.141][Log]  Unregistering client 4 with steam id 76561197997335881, username Guppy
+[07:47:36.706][Log]  Client disconnected
+[07:47:36.706][Log]  Unregistering client 5 with steam id 76561198018804056, username Borgadai
+[07:47:52.767][Log]  Client disconnected
+[07:47:52.767][Log]  Unregistering client 3 with steam id 76561198830758517, username GMN
+[07:47:52.771][Log]  Server empty, idling...
+[07:47:52.772][Log]  Set target framerate: 5
+[07:55:08.203][Log]  Autosave complete. Time: 2023-07-29 07:55:08 Slot: 1
