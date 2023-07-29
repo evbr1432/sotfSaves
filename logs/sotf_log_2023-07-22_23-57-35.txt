@@ -1487,3 +1487,20 @@ UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
 [04:31:00.357][Log]  Autosave complete. Time: 2023-07-29 04:31:00 Slot: 1
 [04:41:00.447][Log]  Autosave complete. Time: 2023-07-29 04:41:00 Slot: 1
 [04:51:00.526][Log]  Autosave complete. Time: 2023-07-29 04:51:00 Slot: 1
+[05:01:00.592][Log]  Autosave complete. Time: 2023-07-29 05:01:00 Slot: 1
+[05:11:00.666][Log]  Autosave complete. Time: 2023-07-29 05:11:00 Slot: 1
+[05:21:00.763][Log]  Autosave complete. Time: 2023-07-29 05:21:00 Slot: 1
+[05:26:21.968][Log]  Incoming client connection with auth ticket
+[05:26:21.969][Log]  Steam auth successful for client 7 with steam id 76561197997335881, username Guppy
+[05:26:21.986][Log]  Server waking up...
+[05:26:21.986][Log]  Set target framerate: 60
+[05:26:38.599][Log]  Sending blob of size 719506 on channel 2 to [Connection [EndPoint 192.168.1.1:50981 | 13882346955176199973]]
+[05:26:38.601][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:50981 | 13882346955176199973]]
+[05:26:38.648][Log]  Sending blob of size 192473 on channel 1 to [Connection [EndPoint 192.168.1.1:50981 | 13882346955176199973]]
+[05:28:15.011][Log]  Incoming client connection with auth ticket
+[05:28:15.011][Log]  Steam auth successful for client 8 with steam id 76561198018804056, username Borgadai
+[05:28:41.831][Log]  Sending blob of size 719380 on channel 2 to [Connection [EndPoint 24.9.50.114:54789 | 1731970996908381701]]
+[05:28:41.833][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 24.9.50.114:54789 | 1731970996908381701]]
+[05:28:41.949][Log]  Sending blob of size 192275 on channel 1 to [Connection [EndPoint 24.9.50.114:54789 | 1731970996908381701]]
+[05:29:44.236][Log]  Incoming client connection with auth ticket
+[05:29:44.237][Log]  Steam auth successful for client 9 with steam id 76561198830758517, username GMN
