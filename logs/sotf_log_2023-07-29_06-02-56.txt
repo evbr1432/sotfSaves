@@ -328,3 +328,10 @@ UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
 [09:22:05.866][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:61091 | 13882346955176210083]]
 [09:22:05.917][Log]  Sending blob of size 202211 on channel 1 to [Connection [EndPoint 192.168.1.1:61091 | 13882346955176210083]]
 [09:25:09.070][Log]  Autosave complete. Time: 2023-07-29 09:25:09 Slot: 1
+[09:31:06.288][Log]  Client disconnected
+[09:31:06.288][Log]  Unregistering client 6 with steam id 76561197997335881, username Guppy
+[09:31:06.293][Log]  Server empty, idling...
+[09:31:06.293][Log]  Set target framerate: 5
+[09:35:09.180][Log]  Autosave complete. Time: 2023-07-29 09:35:09 Slot: 1
+[09:45:09.278][Log]  Autosave complete. Time: 2023-07-29 09:45:09 Slot: 1
+[09:55:09.369][Log]  Autosave complete. Time: 2023-07-29 09:55:09 Slot: 1
