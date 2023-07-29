@@ -1,0 +1,297 @@
+[06:03:03.995][Log]  [Self-Tests] Running self tests...
+[06:03:03.998][Log]  [Self-Tests] [AppId] App ID is correct.
+[06:03:03.998][Log]  [Self-Tests] [Settings] Validating game settings file format...
+[06:03:04.003][Log]  [Self-Tests] [Settings] Game settings file is valid.
+[06:03:04.003][Log]  [Self-Tests] [Config] Validating server config file and command line arguments...
+[06:03:04.005][Log]  Server configuration is valid. More... 
+{
+  "IpAddress": "0.0.0.0",
+  "GamePort": 8766,
+  "QueryPort": 27016,
+  "BlobSyncPort": 9700,
+  "ServerName": "BEEGSONS-9440",
+  "MaxPlayers": 8,
+  "Password": "deesh285",
+  "LanOnly": false,
+  "SaveSlot": 1,
+  "SaveMode": "Continue",
+  "GameMode": "Normal",
+  "SaveInterval": 600,
+  "IdleDayCycleSpeed": 0.0,
+  "IdleTargetFramerate": 5,
+  "ActiveTargetFramerate": 60,
+  "LogFilesEnabled": true,
+  "TimestampLogFilenames": true,
+  "TimestampLogEntries": true,
+  "SkipNetworkAccessibilityTest": false,
+  "GameSettings": {},
+  "CustomGameModeSettings": {}
+}
+[06:03:04.005][Log]  [Self-Tests] [Config] Dedicated Server configuration file is valid.
+[06:03:04.005][Log]  [Self-Tests] [Networking] Testing public accessibility...
+[06:03:06.631][Log]  [Self-Tests] [Networking] Testing server ports against public ip 24.8.87.201...
+[06:03:06.671][Log]  [Self-Tests] [Networking] UDP GamePort [8766] is open.
+[06:03:06.703][Log]  [Self-Tests] [Networking] UDP QueryPort [27016] is open.
+[06:03:06.737][Log]  [Self-Tests] [Networking] UDP BlobSyncPort [9700] is open.
+[06:03:06.737][Log]  [Self-Tests] Self tests passed.
+[06:03:06.737][Log]  [Dedicated] Starting Sons of the Forest Dedicated Server...
+[06:03:09.525][Log]  [Dedicated] Loading game settings.
+[06:03:09.526][Log]  [Dedicated] CustomGameModeSettings: no value found for Gameplay.TreeRegrowth. Using default value.
+[06:03:09.526][Log]  [Dedicated] CustomGameModeSettings: no value found for Structure.Damage. Using default value.
+[06:03:09.536][Log]  [Dedicated] SaveMode is Continue. Save found, loading save. Game mode is Normal
+[06:03:11.432][Log]  Steam server created.
+[06:03:11.432][Log]  Server name: BEEGSONS-9440
+[06:03:11.433][Log]  Max players: 8
+[06:03:11.433][Log]  Starting server...
+[06:03:27.100][Log]  Loading progress: 0
+[06:03:27.602][Log]  Loading progress: 3
+[06:03:28.103][Log]  Loading progress: 4
+[06:03:28.604][Log]  Loading progress: 4
+[06:03:29.107][Log]  Loading progress: 5
+[06:03:29.609][Log]  Loading progress: 5
+[06:03:30.111][Log]  Loading progress: 5
+[06:03:30.613][Log]  Loading progress: 6
+[06:03:31.116][Log]  Loading progress: 6
+[06:03:31.639][Log]  Loading progress: 6
+[06:03:32.142][Log]  Loading progress: 6
+[06:03:32.644][Log]  Loading progress: 6
+[06:03:33.149][Log]  Loading progress: 6
+[06:03:33.658][Log]  Loading progress: 6
+[06:03:34.171][Log]  Loading progress: 6
+[06:03:34.689][Log]  Loading progress: 6
+[06:03:35.197][Log]  Loading progress: 6
+[06:03:35.718][Log]  Loading progress: 6
+[06:03:36.223][Log]  Loading progress: 6
+[06:03:36.750][Log]  Loading progress: 7
+[06:03:37.253][Log]  Loading progress: 14
+[06:03:37.774][Log]  Loading progress: 18
+[06:03:38.280][Log]  Loading progress: 21
+[06:03:38.783][Log]  Loading progress: 25
+[06:03:39.291][Log]  Loading progress: 28
+[06:03:39.798][Log]  Loading progress: 35
+[06:03:40.304][Log]  Loading progress: 36
+[06:03:40.806][Log]  Loading progress: 36
+[06:03:41.309][Log]  Loading progress: 37
+[06:03:41.811][Log]  Loading progress: 39
+[06:03:42.312][Log]  Loading progress: 40
+[06:03:42.814][Log]  Loading progress: 41
+[06:03:43.325][Log]  Loading progress: 43
+[06:03:43.829][Log]  Loading progress: 45
+[06:03:44.330][Log]  Loading progress: 51
+[06:03:44.833][Log]  Loading progress: 57
+[06:03:45.347][Log]  Loading progress: 61
+[06:03:45.859][Log]  Loading progress: 65
+[06:03:46.363][Log]  Loading progress: 72
+[06:03:46.888][Log]  Loading progress: 72
+[06:03:47.411][Log]  Loading progress: 72
+[06:03:47.934][Log]  Loading progress: 72
+[06:03:48.441][Log]  Loading progress: 72
+[06:03:48.945][Log]  Loading progress: 72
+[06:03:49.446][Log]  Loading progress: 72
+[06:03:49.948][Log]  Loading progress: 72
+[06:03:50.452][Log]  Loading progress: 72
+[06:03:50.953][Log]  Loading progress: 72
+[06:03:51.761][Log]  Loading progress: 72
+[06:03:52.289][Log]  Loading progress: 72
+[06:03:52.790][Log]  Loading progress: 72
+[06:03:53.302][Log]  Loading progress: 72
+[06:03:53.804][Log]  Loading progress: 72
+[06:03:54.308][Log]  Loading progress: 72
+[06:03:54.813][Log]  Loading progress: 72
+[06:03:55.315][Log]  Loading progress: 72
+[06:03:55.817][Log]  Loading progress: 72
+[06:03:56.318][Log]  Loading progress: 72
+[06:03:56.818][Log]  Loading progress: 72
+[06:03:57.319][Log]  Loading progress: 72
+[06:03:57.821][Log]  Loading progress: 72
+[06:03:58.322][Log]  Loading progress: 72
+[06:03:58.823][Log]  Loading progress: 72
+[06:03:59.325][Log]  Loading progress: 72
+[06:03:59.827][Log]  Loading progress: 72
+[06:04:00.329][Log]  Loading progress: 72
+[06:04:00.830][Log]  Loading progress: 72
+[06:04:07.294][Log]  Loading progress: 72
+[06:04:07.812][Log]  Loading progress: 72
+[06:04:13.311][Log]  Loading progress: 72
+[06:04:13.858][Log]  Loading progress: 72
+[06:04:14.371][Log]  Loading progress: 72
+[06:04:14.883][Log]  Loading progress: 73
+[06:04:15.416][Log]  Loading progress: 73
+[06:04:15.936][Log]  Loading progress: 73
+[06:04:16.457][Log]  Loading progress: 73
+[06:04:16.962][Log]  Loading progress: 73
+[06:04:17.489][Log]  Loading progress: 73
+[06:04:18.020][Log]  Loading progress: 73
+[06:04:18.521][Log]  Loading progress: 73
+[06:04:19.023][Log]  Loading progress: 73
+[06:04:19.524][Log]  Loading progress: 73
+[06:04:20.025][Log]  Loading progress: 73
+[06:04:20.531][Log]  Loading progress: 74
+[06:04:21.032][Log]  Loading progress: 74
+[06:04:21.533][Log]  Loading progress: 74
+[06:04:22.034][Log]  Loading progress: 74
+[06:04:22.536][Log]  Loading progress: 74
+[06:04:23.070][Log]  Loading progress: 74
+[06:04:23.572][Log]  Loading progress: 74
+[06:04:24.074][Log]  Loading progress: 74
+[06:04:24.576][Log]  Loading progress: 74
+[06:04:25.101][Log]  Loading progress: 74
+[06:04:25.602][Log]  Loading progress: 74
+[06:04:26.103][Log]  Loading progress: 74
+[06:04:26.605][Log]  Loading progress: 74
+[06:04:27.107][Log]  Loading progress: 74
+[06:04:27.608][Log]  Loading progress: 74
+[06:04:28.109][Log]  Loading progress: 74
+[06:04:28.616][Log]  Loading progress: 74
+[06:04:29.253][Log]  Loading progress: 74
+[06:04:29.766][Log]  Loading progress: 74
+[06:04:30.267][Log]  Loading progress: 74
+[06:04:30.769][Log]  Loading progress: 74
+[06:04:31.270][Log]  Loading progress: 74
+[06:04:31.771][Log]  Loading progress: 74
+[06:04:32.273][Log]  Loading progress: 74
+[06:04:32.774][Log]  Loading progress: 74
+[06:04:33.275][Log]  Loading progress: 74
+[06:04:33.800][Log]  Loading progress: 75
+[06:04:34.301][Log]  Loading progress: 75
+[06:04:34.802][Log]  Loading progress: 75
+[06:04:35.304][Log]  Loading progress: 75
+[06:04:35.807][Log]  Loading progress: 75
+[06:04:36.308][Log]  Loading progress: 75
+[06:04:36.810][Log]  Loading progress: 75
+[06:04:37.312][Log]  Loading progress: 75
+[06:04:37.835][Log]  Loading progress: 75
+[06:04:38.336][Log]  Loading progress: 75
+[06:04:38.838][Log]  Loading progress: 75
+[06:04:39.339][Log]  Loading progress: 75
+[06:04:39.840][Log]  Loading progress: 75
+[06:04:40.342][Log]  Loading progress: 75
+[06:04:40.845][Log]  Loading progress: 75
+[06:04:41.346][Log]  Loading progress: 75
+[06:04:41.888][Log]  Loading progress: 76
+[06:04:42.421][Log]  Loading progress: 76
+[06:04:42.924][Log]  Loading progress: 76
+[06:04:43.457][Log]  Loading progress: 76
+[06:04:43.962][Log]  Loading progress: 76
+[06:04:44.496][Log]  Loading progress: 76
+[06:04:44.997][Log]  Loading progress: 76
+[06:04:45.500][Log]  Loading progress: 76
+[06:04:46.001][Log]  Loading progress: 76
+[06:04:46.766][Log]  Loading progress: 76
+[06:04:47.282][Log]  Loading progress: 76
+[06:04:47.786][Log]  Loading progress: 76
+[06:04:48.289][Log]  Loading progress: 76
+[06:04:48.823][Log]  Loading progress: 76
+[06:04:49.324][Log]  Loading progress: 76
+[06:04:49.826][Log]  Loading progress: 76
+[06:04:50.807][Log]  Loading progress: 76
+[06:04:52.803][Log]  Loading progress: 76
+[06:04:53.318][Log]  Loading progress: 76
+[06:04:53.819][Log]  Loading progress: 76
+[06:04:54.321][Log]  Loading progress: 76
+[06:04:54.853][Log]  Loading progress: 76
+[06:04:55.357][Log]  Loading progress: 76
+[06:04:55.858][Log]  Loading progress: 76
+[06:04:56.362][Log]  Loading progress: 76
+[06:04:58.301][Log]  Loading progress: 77
+[06:04:58.817][Log]  Loading progress: 77
+[06:04:59.320][Log]  Loading progress: 77
+[06:04:59.821][Log]  Loading progress: 77
+[06:05:00.323][Log]  Loading progress: 77
+[06:05:00.827][Log]  Loading progress: 77
+[06:05:01.329][Log]  Loading progress: 77
+[06:05:04.006][Log]  Loading progress: 80
+[06:05:04.531][Log]  Loading progress: 100
+[06:05:05.033][Log]  Loading progress: 100
+[06:05:07.558][Log]  Autosave complete. Time: 2023-07-29 06:05:07 Slot: 1
+[06:05:07.868][Log]  Server empty, idling...
+[06:05:07.868][Log]  Set target framerate: 5
+[06:05:07.868][Log]  Dedicated server loaded.
+[06:06:20.584][Log]  Incoming client connection with auth ticket
+[06:06:20.585][Log]  Steam auth successful for client 2 with steam id 76561197997335881, username Guppy
+[06:06:20.601][Log]  Server waking up...
+[06:06:20.601][Log]  Set target framerate: 60
+[06:06:36.918][Log]  Sending blob of size 698057 on channel 2 to [Connection [EndPoint 192.168.1.1:58823 | 13882346955176207815]]
+[06:06:36.922][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:58823 | 13882346955176207815]]
+[06:06:36.993][Log]  Sending blob of size 197832 on channel 1 to [Connection [EndPoint 192.168.1.1:58823 | 13882346955176207815]]
+[06:07:22.625][Log]  Client disconnected
+[06:07:22.625][Log]  Unregistering client 2 with steam id 76561197997335881, username Guppy
+[06:07:22.634][Log]  Server empty, idling...
+[06:07:22.634][Log]  Set target framerate: 5
+[06:07:29.046][Log]  Incoming client connection with auth ticket
+[06:07:29.046][Log]  Steam auth successful for client 3 with steam id 76561198830758517, username GMN
+[06:07:29.069][Log]  Server waking up...
+[06:07:29.069][Log]  Set target framerate: 60
+[06:07:37.875][Log]  Incoming client connection with auth ticket
+[06:07:37.875][Log]  Steam auth successful for client 4 with steam id 76561197997335881, username Guppy
+[06:07:48.531][Log]  Sending blob of size 698023 on channel 2 to [Connection [EndPoint 192.168.1.1:51143 | 13882346955176200135]]
+[06:07:48.533][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:51143 | 13882346955176200135]]
+[06:07:48.594][Log]  Sending blob of size 197832 on channel 1 to [Connection [EndPoint 192.168.1.1:51143 | 13882346955176200135]]
+[06:07:56.958][Log]  Sending blob of size 698023 on channel 2 to [Connection [EndPoint 71.211.91.107:61954 | 5175580911898522114]]
+[06:07:56.960][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 71.211.91.107:61954 | 5175580911898522114]]
+[06:07:57.016][Log]  Sending blob of size 197832 on channel 1 to [Connection [EndPoint 71.211.91.107:61954 | 5175580911898522114]]
+[06:14:45.720][Log]  Incoming client connection with auth ticket
+[06:14:45.721][Log]  Steam auth successful for client 5 with steam id 76561198018804056, username Borgadai
+[06:15:07.818][Log]  Autosave complete. Time: 2023-07-29 06:15:07 Slot: 1
+[06:15:13.522][Log]  Sending blob of size 700165 on channel 2 to [Connection [EndPoint 24.9.50.114:58672 | 1731970996908385584]]
+[06:15:13.527][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 24.9.50.114:58672 | 1731970996908385584]]
+[06:15:13.681][Log]  Sending blob of size 197457 on channel 1 to [Connection [EndPoint 24.9.50.114:58672 | 1731970996908385584]]
+[06:23:07.636][Exception]  System.ArgumentException: Kernel 'loadTexelMap' not found.
+  at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[06:23:07.639][Exception]    at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[06:24:56.405][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[06:24:56.406][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[06:25:07.991][Log]  Autosave complete. Time: 2023-07-29 06:25:07 Slot: 1
