@@ -458,3 +458,207 @@ UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
 [06:05:21.402][Log]  Autosave complete. Time: 2023-07-30 06:05:21 Slot: 1
 [06:15:21.503][Log]  Autosave complete. Time: 2023-07-30 06:15:21 Slot: 1
 [06:25:21.602][Log]  Autosave complete. Time: 2023-07-30 06:25:21 Slot: 1
+[06:30:19.780][Log]  Incoming client connection with auth ticket
+[06:30:19.780][Log]  Steam auth successful for client 7 with steam id 76561197997335881, username Guppy
+[06:30:19.808][Log]  Server waking up...
+[06:30:19.809][Log]  Set target framerate: 60
+[06:30:37.901][Log]  Sending blob of size 737461 on channel 2 to [Connection [EndPoint 192.168.1.1:64814 | 13882346955176213806]]
+[06:30:37.903][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:64814 | 13882346955176213806]]
+[06:30:37.979][Log]  Sending blob of size 204610 on channel 1 to [Connection [EndPoint 192.168.1.1:64814 | 13882346955176213806]]
+[06:34:02.260][Log]  Client disconnected
+[06:34:02.261][Log]  Unregistering client 7 with steam id 76561197997335881, username Guppy
+[06:34:02.264][Log]  Server empty, idling...
+[06:34:02.264][Log]  Set target framerate: 5
+[06:35:21.696][Log]  Autosave complete. Time: 2023-07-30 06:35:21 Slot: 1
+[06:35:35.910][Log]  Incoming client connection with auth ticket
+[06:35:35.911][Log]  Steam auth successful for client 8 with steam id 76561197997335881, username Guppy
+[06:35:35.932][Log]  Server waking up...
+[06:35:35.933][Log]  Set target framerate: 60
+[06:35:52.230][Log]  Sending blob of size 742060 on channel 2 to [Connection [EndPoint 192.168.1.1:54496 | 13882346955176203488]]
+[06:35:52.232][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:54496 | 13882346955176203488]]
+[06:35:52.295][Log]  Sending blob of size 204544 on channel 1 to [Connection [EndPoint 192.168.1.1:54496 | 13882346955176203488]]
+[06:41:12.647][Exception]  System.ArgumentException: The Object you want to instantiate is null.
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Collections.Generic.List`1[UnityEngine.GameObject]& result, UnityEngine.Vector3 randomOffset, UnityEngine.Vector3 randomRotation, System.Int32 contentsSeed, System.Boolean setDynamic) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigManager.RegisterLocation (Sons.Environment.Digging.TerrainDig.TerrainDigNode node) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigNode.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.DistanceActivatedGroup.SetTargetsActive (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkSchedulerBatch.DoWorkTryCatch (System.Int64 maxTicks, System.Boolean autoUnregister) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessSchedulerBatchNear (System.Boolean threadSafeOnly, WorkSchedulerBatch wsb, System.Int64 nearTicks, System.Int32& batchedTasksNear) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessArea (UnityEngine.Vector3 position, System.Int64 remainingTicks, System.Boolean cleanup, System.Boolean mainThread) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.Update () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+Sons.DistanceActivatedGroup:SetTargetsActive(Boolean)
+WorkSchedulerBatch:DoWorkTryCatch(Int64, Boolean)
+WorkScheduler:ProcessSchedulerBatchNear(Boolean, WorkSchedulerBatch, Int64, Int32&)
+WorkScheduler:ProcessArea(Vector3, Int64, Boolean, Boolean)
+WorkScheduler:Update()
+
+[06:41:12.649][Exception]    at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Collections.Generic.List`1[UnityEngine.GameObject]& result, UnityEngine.Vector3 randomOffset, UnityEngine.Vector3 randomRotation, System.Int32 contentsSeed, System.Boolean setDynamic) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigManager.RegisterLocation (Sons.Environment.Digging.TerrainDig.TerrainDigNode node) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigNode.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.DistanceActivatedGroup.SetTargetsActive (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkSchedulerBatch.DoWorkTryCatch (System.Int64 maxTicks, System.Boolean autoUnregister) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessSchedulerBatchNear (System.Boolean threadSafeOnly, WorkSchedulerBatch wsb, System.Int64 nearTicks, System.Int32& batchedTasksNear) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessArea (UnityEngine.Vector3 position, System.Int64 remainingTicks, System.Boolean cleanup, System.Boolean mainThread) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.Update () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+Sons.DistanceActivatedGroup:SetTargetsActive(Boolean)
+WorkSchedulerBatch:DoWorkTryCatch(Int64, Boolean)
+WorkScheduler:ProcessSchedulerBatchNear(Boolean, WorkSchedulerBatch, Int64, Int32&)
+WorkScheduler:ProcessArea(Vector3, Int64, Boolean, Boolean)
+WorkScheduler:Update()
+
+[06:44:25.772][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Environment.Digging.TerrainDig.TerrainDigColliderSwitchTracker.SetIgnore (UnityEngine.Collider other, System.Boolean ignore) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigColliderSwitchTracker.SafetyCleanApplied () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[06:44:25.773][Exception]    at Sons.Environment.Digging.TerrainDig.TerrainDigColliderSwitchTracker.SetIgnore (UnityEngine.Collider other, System.Boolean ignore) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigColliderSwitchTracker.SafetyCleanApplied () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[06:45:22.194][Log]  Autosave complete. Time: 2023-07-30 06:45:22 Slot: 1
+[06:48:18.970][Exception]  System.ArgumentException: The Object you want to instantiate is null.
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Collections.Generic.List`1[UnityEngine.GameObject]& result, UnityEngine.Vector3 randomOffset, UnityEngine.Vector3 randomRotation, System.Int32 contentsSeed, System.Boolean setDynamic) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigManager.RegisterLocation (Sons.Environment.Digging.TerrainDig.TerrainDigNode node) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigNode.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.DistanceActivatedGroup.SetTargetsActive (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkSchedulerBatch.DoWorkTryCatch (System.Int64 maxTicks, System.Boolean autoUnregister) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessSchedulerBatchNear (System.Boolean threadSafeOnly, WorkSchedulerBatch wsb, System.Int64 nearTicks, System.Int32& batchedTasksNear) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessArea (UnityEngine.Vector3 position, System.Int64 remainingTicks, System.Boolean cleanup, System.Boolean mainThread) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.Update () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+Sons.DistanceActivatedGroup:SetTargetsActive(Boolean)
+WorkSchedulerBatch:DoWorkTryCatch(Int64, Boolean)
+WorkScheduler:ProcessSchedulerBatchNear(Boolean, WorkSchedulerBatch, Int64, Int32&)
+WorkScheduler:ProcessArea(Vector3, Int64, Boolean, Boolean)
+WorkScheduler:Update()
+
+[06:48:18.972][Exception]    at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Collections.Generic.List`1[UnityEngine.GameObject]& result, UnityEngine.Vector3 randomOffset, UnityEngine.Vector3 randomRotation, System.Int32 contentsSeed, System.Boolean setDynamic) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigManager.RegisterLocation (Sons.Environment.Digging.TerrainDig.TerrainDigNode node) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigNode.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.DistanceActivatedGroup.SetTargetsActive (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkSchedulerBatch.DoWorkTryCatch (System.Int64 maxTicks, System.Boolean autoUnregister) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessSchedulerBatchNear (System.Boolean threadSafeOnly, WorkSchedulerBatch wsb, System.Int64 nearTicks, System.Int32& batchedTasksNear) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessArea (UnityEngine.Vector3 position, System.Int64 remainingTicks, System.Boolean cleanup, System.Boolean mainThread) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.Update () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+Sons.DistanceActivatedGroup:SetTargetsActive(Boolean)
+WorkSchedulerBatch:DoWorkTryCatch(Int64, Boolean)
+WorkScheduler:ProcessSchedulerBatchNear(Boolean, WorkSchedulerBatch, Int64, Int32&)
+WorkScheduler:ProcessArea(Vector3, Int64, Boolean, Boolean)
+WorkScheduler:Update()
+
+[06:48:19.032][Exception]  System.ArgumentException: The Object you want to instantiate is null.
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Collections.Generic.List`1[UnityEngine.GameObject]& result, UnityEngine.Vector3 randomOffset, UnityEngine.Vector3 randomRotation, System.Int32 contentsSeed, System.Boolean setDynamic) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigManager.RegisterLocation (Sons.Environment.Digging.TerrainDig.TerrainDigNode node) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigNode.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.DistanceActivatedGroup.SetTargetsActive (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkSchedulerBatch.DoWorkTryCatch (System.Int64 maxTicks, System.Boolean autoUnregister) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessSchedulerBatchNear (System.Boolean threadSafeOnly, WorkSchedulerBatch wsb, System.Int64 nearTicks, System.Int32& batchedTasksNear) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessArea (UnityEngine.Vector3 position, System.Int64 remainingTicks, System.Boolean cleanup, System.Boolean mainThread) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.Update () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+Sons.DistanceActivatedGroup:SetTargetsActive(Boolean)
+WorkSchedulerBatch:DoWorkTryCatch(Int64, Boolean)
+WorkScheduler:ProcessSchedulerBatchNear(Boolean, WorkSchedulerBatch, Int64, Int32&)
+WorkScheduler:ProcessArea(Vector3, Int64, Boolean, Boolean)
+WorkScheduler:Update()
+
+[06:48:19.033][Exception]    at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Collections.Generic.List`1[UnityEngine.GameObject]& result, UnityEngine.Vector3 randomOffset, UnityEngine.Vector3 randomRotation, System.Int32 contentsSeed, System.Boolean setDynamic) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigManager.RegisterLocation (Sons.Environment.Digging.TerrainDig.TerrainDigNode node) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigNode.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.DistanceActivatedGroup.SetTargetsActive (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkSchedulerBatch.DoWorkTryCatch (System.Int64 maxTicks, System.Boolean autoUnregister) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessSchedulerBatchNear (System.Boolean threadSafeOnly, WorkSchedulerBatch wsb, System.Int64 nearTicks, System.Int32& batchedTasksNear) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessArea (UnityEngine.Vector3 position, System.Int64 remainingTicks, System.Boolean cleanup, System.Boolean mainThread) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.Update () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+Sons.DistanceActivatedGroup:SetTargetsActive(Boolean)
+WorkSchedulerBatch:DoWorkTryCatch(Int64, Boolean)
+WorkScheduler:ProcessSchedulerBatchNear(Boolean, WorkSchedulerBatch, Int64, Int32&)
+WorkScheduler:ProcessArea(Vector3, Int64, Boolean, Boolean)
+WorkScheduler:Update()
+
+[06:48:19.338][Exception]  System.ArgumentException: The Object you want to instantiate is null.
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Collections.Generic.List`1[UnityEngine.GameObject]& result, UnityEngine.Vector3 randomOffset, UnityEngine.Vector3 randomRotation, System.Int32 contentsSeed, System.Boolean setDynamic) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigManager.RegisterLocation (Sons.Environment.Digging.TerrainDig.TerrainDigNode node) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigNode.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.DistanceActivatedGroup.SetTargetsActive (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkSchedulerBatch.DoWorkTryCatch (System.Int64 maxTicks, System.Boolean autoUnregister) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessSchedulerBatchNear (System.Boolean threadSafeOnly, WorkSchedulerBatch wsb, System.Int64 nearTicks, System.Int32& batchedTasksNear) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessArea (UnityEngine.Vector3 position, System.Int64 remainingTicks, System.Boolean cleanup, System.Boolean mainThread) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.Update () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+Sons.DistanceActivatedGroup:SetTargetsActive(Boolean)
+WorkSchedulerBatch:DoWorkTryCatch(Int64, Boolean)
+WorkScheduler:ProcessSchedulerBatchNear(Boolean, WorkSchedulerBatch, Int64, Int32&)
+WorkScheduler:ProcessArea(Vector3, Int64, Boolean, Boolean)
+WorkScheduler:Update()
+
+[06:48:19.340][Exception]    at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Collections.Generic.List`1[UnityEngine.GameObject]& result, UnityEngine.Vector3 randomOffset, UnityEngine.Vector3 randomRotation, System.Int32 contentsSeed, System.Boolean setDynamic) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Gameplay.ContainerItemSpawnerData.SpawnItems (UnityEngine.Vector3 position) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigManager.RegisterLocation (Sons.Environment.Digging.TerrainDig.TerrainDigNode node) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Environment.Digging.TerrainDig.TerrainDigNode.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.DistanceActivatedGroup.SetTargetsActive (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkSchedulerBatch.DoWorkTryCatch (System.Int64 maxTicks, System.Boolean autoUnregister) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessSchedulerBatchNear (System.Boolean threadSafeOnly, WorkSchedulerBatch wsb, System.Int64 nearTicks, System.Int32& batchedTasksNear) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.ProcessArea (UnityEngine.Vector3 position, System.Int64 remainingTicks, System.Boolean cleanup, System.Boolean mainThread) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorkScheduler.Update () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+Sons.DistanceActivatedGroup:SetTargetsActive(Boolean)
+WorkSchedulerBatch:DoWorkTryCatch(Int64, Boolean)
+WorkScheduler:ProcessSchedulerBatchNear(Boolean, WorkSchedulerBatch, Int64, Int32&)
+WorkScheduler:ProcessArea(Vector3, Int64, Boolean, Boolean)
+WorkScheduler:Update()
+
+[06:55:22.316][Log]  Autosave complete. Time: 2023-07-30 06:55:22 Slot: 1
