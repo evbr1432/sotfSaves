@@ -219,3 +219,15 @@
 [05:29:55.591][Log]  Server empty, idling...
 [05:29:55.591][Log]  Set target framerate: 5
 [05:29:55.591][Log]  Dedicated server loaded.
+[05:30:05.336][Log]  Autosave complete. Time: 2023-07-31 05:30:05 Slot: 3
+[05:37:23.827][Log]  Incoming client connection with auth ticket
+[05:37:23.828][Log]  Steam auth successful for client 2 with steam id 76561197997335881, username Guppy
+[05:37:23.848][Log]  Server waking up...
+[05:37:23.848][Log]  Set target framerate: 60
+[05:37:40.961][Log]  Sending blob of size 1299 on channel 2 to [Connection [EndPoint 192.168.1.1:63947 | 13882346955176212939]]
+[05:37:40.971][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:63947 | 13882346955176212939]]
+[05:37:40.974][Log]  Sending blob of size 2336 on channel 1 to [Connection [EndPoint 192.168.1.1:63947 | 13882346955176212939]]
+[05:38:46.687][Log]  Client disconnected
+[05:38:46.687][Log]  Unregistering client 2 with steam id 76561197997335881, username Guppy
+[05:38:46.701][Log]  Server empty, idling...
+[05:38:46.701][Log]  Set target framerate: 5
