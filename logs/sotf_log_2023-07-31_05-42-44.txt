@@ -255,3 +255,49 @@ DelegateList`1:Invoke(T)
 UnityEngine.AsyncOperation:InvokeCompletionEvent()
 
 [05:54:56.610][Log]  Autosave complete. Time: 2023-07-31 05:54:56 Slot: 1
+[06:04:19.122][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Construction.BeamStructure+Utils.CheckForwardFakePilarCreation (Construction.TargetInfo targetInfo, Construction.ModuleProfileDatabase groundedFakePilarDb, Construction.ModuleProfileDatabase waterBorneFakePilarDb, Construction.ModuleProfile beamProfile, Construction.BeamStructure editingBeamStructure) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.PlaceLeaningBeamStructureModule.OnPlace (Construction.TargetInfo targetInfo, Construction.ModuleProfile profile, System.Int32 placementMode) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.Multiplayer.FreeFormSystemNetworkProxyBase.OnEvent (FreeFormPlaceElement evnt) [0x00000] in <00000000000000000000000000000000>:0 
+  at FreeFormPlaceElement_Meta.Bolt.IEventFactory.Dispatch (Bolt.Event ev, System.Object target) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Raise (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.RaiseLocal (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Dispatch (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.DispatchAllEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltCore.Poll () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltPoll.FixedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Construction.Multiplayer.FreeFormSystemNetworkProxyBase:OnEvent(FreeFormPlaceElement)
+FreeFormPlaceElement_Meta:Bolt.IEventFactory.Dispatch(Event, Object)
+Bolt.EventDispatcher:Raise(Event)
+Bolt.EventDispatcher:RaiseLocal(Event)
+Bolt.EventDispatcher:Dispatch(Event)
+Bolt.EventDispatcher:DispatchAllEvents()
+BoltCore:Poll()
+BoltPoll:FixedUpdate()
+
+[06:04:19.124][Exception]    at Construction.BeamStructure+Utils.CheckForwardFakePilarCreation (Construction.TargetInfo targetInfo, Construction.ModuleProfileDatabase groundedFakePilarDb, Construction.ModuleProfileDatabase waterBorneFakePilarDb, Construction.ModuleProfile beamProfile, Construction.BeamStructure editingBeamStructure) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.PlaceLeaningBeamStructureModule.OnPlace (Construction.TargetInfo targetInfo, Construction.ModuleProfile profile, System.Int32 placementMode) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.Multiplayer.FreeFormSystemNetworkProxyBase.OnEvent (FreeFormPlaceElement evnt) [0x00000] in <00000000000000000000000000000000>:0 
+  at FreeFormPlaceElement_Meta.Bolt.IEventFactory.Dispatch (Bolt.Event ev, System.Object target) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Raise (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.RaiseLocal (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Dispatch (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.DispatchAllEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltCore.Poll () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltPoll.FixedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Construction.Multiplayer.FreeFormSystemNetworkProxyBase:OnEvent(FreeFormPlaceElement)
+FreeFormPlaceElement_Meta:Bolt.IEventFactory.Dispatch(Event, Object)
+Bolt.EventDispatcher:Raise(Event)
+Bolt.EventDispatcher:RaiseLocal(Event)
+Bolt.EventDispatcher:Dispatch(Event)
+Bolt.EventDispatcher:DispatchAllEvents()
+BoltCore:Poll()
+BoltPoll:FixedUpdate()
+
+[06:04:56.627][Log]  Autosave complete. Time: 2023-07-31 06:04:56 Slot: 1
+[06:14:56.704][Log]  Autosave complete. Time: 2023-07-31 06:14:56 Slot: 1
+[06:24:56.634][Log]  Autosave complete. Time: 2023-07-31 06:24:56 Slot: 1
