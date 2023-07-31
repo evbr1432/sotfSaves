@@ -1,1 +1,1 @@
-{"Version":"0.0.0","Data":{"WeatherSystem":"{\"Version\":\"0.0.0\",\"_isRaining\":true,\"_cloudState\":3,\"_currentRainType\":3,\"_currentSeason\":3,\"_startingDayOffset\":5.0,\"_wetnessVelocity\":5.47828051E-07,\"_wetnessCurrent\":0.9999945,\"_wetnessTarget\":1.0}"}}
+{"Version":"0.0.0","Data":{"WeatherSystem":"{\"Version\":\"0.0.0\",\"_isRaining\":true,\"_cloudState\":3,\"_currentRainType\":1,\"_currentSeason\":3,\"_startingDayOffset\":5.0,\"_wetnessVelocity\":6.37122E-07,\"_wetnessCurrent\":0.9999936,\"_wetnessTarget\":1.0}"}}
