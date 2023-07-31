@@ -1,0 +1,184 @@
+[05:24:49.290][Log]  [Self-Tests] Running self tests...
+[05:24:49.291][Log]  [Self-Tests] [AppId] App ID is correct.
+[05:24:49.291][Log]  [Self-Tests] [Settings] Validating game settings file format...
+[05:24:49.296][Log]  [Self-Tests] [Settings] Game settings file is valid.
+[05:24:49.296][Log]  [Self-Tests] [Config] Validating server config file and command line arguments...
+[05:24:49.297][Log]  Server configuration is valid. More... 
+{
+  "IpAddress": "0.0.0.0",
+  "GamePort": 8766,
+  "QueryPort": 27016,
+  "BlobSyncPort": 9700,
+  "ServerName": "BEEGSONS-9440",
+  "MaxPlayers": 8,
+  "Password": "deesh285",
+  "LanOnly": false,
+  "SaveSlot": 1,
+  "SaveMode": "Continue",
+  "GameMode": "Normal",
+  "SaveInterval": 600,
+  "IdleDayCycleSpeed": 0.0,
+  "IdleTargetFramerate": 5,
+  "ActiveTargetFramerate": 60,
+  "LogFilesEnabled": true,
+  "TimestampLogFilenames": true,
+  "TimestampLogEntries": true,
+  "SkipNetworkAccessibilityTest": false,
+  "GameSettings": {},
+  "CustomGameModeSettings": {}
+}
+[05:24:49.297][Log]  [Self-Tests] [Config] Dedicated Server configuration file is valid.
+[05:24:49.298][Log]  [Self-Tests] [Networking] Testing public accessibility...
+[05:24:51.981][Log]  [Self-Tests] [Networking] Testing server ports against public ip 24.8.87.201...
+[05:24:52.026][Log]  [Self-Tests] [Networking] UDP GamePort [8766] is open.
+[05:24:52.057][Log]  [Self-Tests] [Networking] UDP QueryPort [27016] is open.
+[05:24:52.091][Log]  [Self-Tests] [Networking] UDP BlobSyncPort [9700] is open.
+[05:24:52.091][Log]  [Self-Tests] Self tests passed.
+[05:24:52.092][Log]  [Dedicated] Starting Sons of the Forest Dedicated Server...
+[05:24:54.881][Log]  [Dedicated] Loading game settings.
+[05:24:54.881][Log]  [Dedicated] CustomGameModeSettings: no value found for Gameplay.TreeRegrowth. Using default value.
+[05:24:54.881][Log]  [Dedicated] CustomGameModeSettings: no value found for Structure.Damage. Using default value.
+[05:24:54.896][Log]  [Dedicated] SaveMode is Continue. Save found, loading save. Game mode is Normal
+[05:24:57.092][Log]  Steam server created.
+[05:24:57.093][Log]  Server name: BEEGSONS-9440
+[05:24:57.093][Log]  Max players: 8
+[05:24:57.093][Log]  Starting server...
+[05:25:12.353][Log]  Loading progress: 0
+[05:25:12.885][Log]  Loading progress: 3
+[05:25:13.385][Log]  Loading progress: 4
+[05:25:13.886][Log]  Loading progress: 4
+[05:25:14.390][Log]  Loading progress: 5
+[05:25:14.892][Log]  Loading progress: 5
+[05:25:15.394][Log]  Loading progress: 6
+[05:25:15.895][Log]  Loading progress: 6
+[05:25:16.398][Log]  Loading progress: 6
+[05:25:16.903][Log]  Loading progress: 6
+[05:25:17.407][Log]  Loading progress: 6
+[05:25:17.909][Log]  Loading progress: 6
+[05:25:18.410][Log]  Loading progress: 6
+[05:25:18.917][Log]  Loading progress: 6
+[05:25:19.421][Log]  Loading progress: 6
+[05:25:19.926][Log]  Loading progress: 6
+[05:25:20.428][Log]  Loading progress: 6
+[05:25:20.928][Log]  Loading progress: 6
+[05:25:21.430][Log]  Loading progress: 6
+[05:25:21.932][Log]  Loading progress: 7
+[05:25:22.434][Log]  Loading progress: 11
+[05:25:22.936][Log]  Loading progress: 18
+[05:25:23.439][Log]  Loading progress: 21
+[05:25:23.972][Log]  Loading progress: 25
+[05:25:24.473][Log]  Loading progress: 28
+[05:25:24.975][Log]  Loading progress: 34
+[05:25:25.483][Log]  Loading progress: 36
+[05:25:25.984][Log]  Loading progress: 36
+[05:25:26.485][Log]  Loading progress: 37
+[05:25:26.986][Log]  Loading progress: 39
+[05:25:27.489][Log]  Loading progress: 40
+[05:25:27.991][Log]  Loading progress: 41
+[05:25:28.492][Log]  Loading progress: 43
+[05:25:28.993][Log]  Loading progress: 46
+[05:25:29.495][Log]  Loading progress: 53
+[05:25:29.997][Log]  Loading progress: 58
+[05:25:30.498][Log]  Loading progress: 64
+[05:25:31.000][Log]  Loading progress: 68
+[05:25:31.531][Log]  Loading progress: 72
+[05:25:32.033][Log]  Loading progress: 72
+[05:25:32.535][Log]  Loading progress: 72
+[05:25:33.036][Log]  Loading progress: 72
+[05:25:33.570][Log]  Loading progress: 72
+[05:25:34.095][Log]  Loading progress: 72
+[05:25:34.596][Log]  Loading progress: 72
+[05:25:35.097][Log]  Loading progress: 72
+[05:25:35.598][Log]  Loading progress: 72
+[05:25:36.099][Log]  Loading progress: 72
+[05:25:36.602][Log]  Loading progress: 72
+[05:25:37.692][Log]  Loading progress: 72
+[05:25:38.223][Log]  Loading progress: 72
+[05:25:38.723][Log]  Loading progress: 72
+[05:25:39.225][Log]  Loading progress: 72
+[05:25:39.728][Log]  Loading progress: 72
+[05:25:40.230][Log]  Loading progress: 72
+[05:25:40.732][Log]  Loading progress: 72
+[05:25:41.234][Log]  Loading progress: 72
+[05:25:41.736][Log]  Loading progress: 72
+[05:25:42.238][Log]  Loading progress: 72
+[05:25:42.740][Log]  Loading progress: 72
+[05:25:43.241][Log]  Loading progress: 72
+[05:25:43.743][Log]  Loading progress: 72
+[05:25:44.245][Log]  Loading progress: 72
+[05:25:44.747][Log]  Loading progress: 72
+[05:25:45.249][Log]  Loading progress: 72
+[05:25:45.751][Log]  Loading progress: 72
+[05:25:46.252][Log]  Loading progress: 72
+[05:25:52.598][Log]  Loading progress: 72
+[05:25:53.114][Log]  Loading progress: 72
+[05:25:56.916][Log]  Loading progress: 72
+[05:25:57.431][Log]  Loading progress: 72
+[05:25:57.948][Log]  Loading progress: 72
+[05:25:58.482][Log]  Loading progress: 72
+[05:25:58.987][Log]  Loading progress: 73
+[05:25:59.489][Log]  Loading progress: 73
+[05:25:59.990][Log]  Loading progress: 73
+[05:26:00.492][Log]  Loading progress: 73
+[05:26:00.994][Log]  Loading progress: 73
+[05:26:01.495][Log]  Loading progress: 73
+[05:26:01.998][Log]  Loading progress: 73
+[05:26:02.521][Log]  Loading progress: 73
+[05:26:03.023][Log]  Loading progress: 73
+[05:26:03.527][Log]  Loading progress: 73
+[05:26:04.028][Log]  Loading progress: 73
+[05:26:04.561][Log]  Loading progress: 73
+[05:26:05.064][Log]  Loading progress: 73
+[05:26:05.565][Log]  Loading progress: 73
+[05:26:06.067][Log]  Loading progress: 73
+[05:26:06.569][Log]  Loading progress: 73
+[05:26:07.075][Log]  Loading progress: 74
+[05:26:07.577][Log]  Loading progress: 74
+[05:26:08.079][Log]  Loading progress: 74
+[05:26:08.582][Log]  Loading progress: 74
+[05:26:09.082][Log]  Loading progress: 74
+[05:26:09.584][Log]  Loading progress: 74
+[05:26:10.088][Log]  Loading progress: 74
+[05:26:10.594][Log]  Loading progress: 74
+[05:26:11.108][Log]  Loading progress: 74
+[05:26:11.609][Log]  Loading progress: 74
+[05:26:12.142][Log]  Loading progress: 74
+[05:26:12.675][Log]  Loading progress: 74
+[05:26:13.236][Log]  Loading progress: 74
+[05:26:13.752][Log]  Loading progress: 74
+[05:26:14.256][Log]  Loading progress: 74
+[05:26:14.761][Log]  Loading progress: 74
+[05:26:15.293][Log]  Loading progress: 74
+[05:26:15.797][Log]  Loading progress: 74
+[05:26:16.302][Log]  Loading progress: 75
+[05:26:16.804][Log]  Loading progress: 75
+[05:26:17.309][Log]  Loading progress: 75
+[05:26:17.810][Log]  Loading progress: 75
+[05:26:18.344][Log]  Loading progress: 75
+[05:26:18.847][Log]  Loading progress: 75
+[05:26:19.350][Log]  Loading progress: 75
+[05:26:19.938][Log]  Loading progress: 75
+[05:26:20.452][Log]  Loading progress: 75
+[05:26:20.986][Log]  Loading progress: 75
+[05:26:21.487][Log]  Loading progress: 75
+[05:26:21.990][Log]  Loading progress: 75
+[05:26:22.491][Log]  Loading progress: 75
+[05:26:23.022][Log]  Loading progress: 75
+[05:26:23.534][Log]  Loading progress: 76
+[05:26:24.037][Log]  Loading progress: 76
+[05:26:24.570][Log]  Loading progress: 76
+[05:26:25.100][Log]  Loading progress: 76
+[05:26:25.620][Log]  Loading progress: 76
+[05:26:26.703][Log]  Loading progress: 76
+[05:26:27.221][Log]  Loading progress: 76
+[05:26:27.723][Log]  Loading progress: 76
+[05:26:28.225][Log]  Loading progress: 76
+[05:26:28.729][Log]  Loading progress: 76
+[05:26:29.264][Log]  Loading progress: 76
+[05:26:29.766][Log]  Loading progress: 76
+[05:26:30.796][Log]  Loading progress: 76
+[05:26:32.765][Log]  Loading progress: 76
+[05:26:33.282][Log]  Loading progress: 76
+[05:26:33.816][Log]  Loading progress: 76
+[05:26:34.319][Log]  Loading progress: 76
+[05:26:34.821][Log]  Loading progress: 76
