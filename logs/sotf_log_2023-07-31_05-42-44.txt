@@ -822,3 +822,71 @@ Bolt.EventDispatcher:DispatchAllEvents()
 BoltCore:Poll()
 BoltPoll:FixedUpdate()
 
+[07:35:59.111][Log]  Autosave complete. Time: 2023-08-03 07:35:59 Slot: 1
+[07:42:22.675][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at ParticleScaler.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at FireSphere.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew+FlameVisualController.Toggle (System.Boolean onOff) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.On () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.SetAlight () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.FireMpProxy.ReceiveLightFireAction () [0x00000] in <00000000000000000000000000000000>:0 
+  at FireLightEvent_Meta.Bolt.IEventFactory.Dispatch (Bolt.Event ev, System.Object target) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Raise (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.RaiseLocal (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Dispatch (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.DispatchAllEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltCore.Poll () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltPoll.FixedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FireSphere:OnEnable()
+Construction.FlameVisualController:Toggle(Boolean)
+Construction.CookingFireNew:On()
+Construction.CookingFireNew:SetAlight()
+Construction.FireMpProxy:ReceiveLightFireAction()
+FireLightEvent_Meta:Bolt.IEventFactory.Dispatch(Event, Object)
+Bolt.EventDispatcher:Raise(Event)
+Bolt.EventDispatcher:RaiseLocal(Event)
+Bolt.EventDispatcher:Dispatch(Event)
+Bolt.EventDispatcher:DispatchAllEvents()
+BoltCore:Poll()
+BoltPoll:FixedUpdate()
+
+[07:42:22.677][Exception]    at ParticleScaler.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) [0x00000] in <00000000000000000000000000000000>:0 
+  at FireSphere.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew+FlameVisualController.Toggle (System.Boolean onOff) [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.On () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.CookingFireNew.SetAlight () [0x00000] in <00000000000000000000000000000000>:0 
+  at Construction.FireMpProxy.ReceiveLightFireAction () [0x00000] in <00000000000000000000000000000000>:0 
+  at FireLightEvent_Meta.Bolt.IEventFactory.Dispatch (Bolt.Event ev, System.Object target) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Raise (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.RaiseLocal (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.Dispatch (Bolt.Event ev) [0x00000] in <00000000000000000000000000000000>:0 
+  at Bolt.EventDispatcher.DispatchAllEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltCore.Poll () [0x00000] in <00000000000000000000000000000000>:0 
+  at BoltPoll.FixedUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FireSphere:OnEnable()
+Construction.FlameVisualController:Toggle(Boolean)
+Construction.CookingFireNew:On()
+Construction.CookingFireNew:SetAlight()
+Construction.FireMpProxy:ReceiveLightFireAction()
+FireLightEvent_Meta:Bolt.IEventFactory.Dispatch(Event, Object)
+Bolt.EventDispatcher:Raise(Event)
+Bolt.EventDispatcher:RaiseLocal(Event)
+Bolt.EventDispatcher:Dispatch(Event)
+Bolt.EventDispatcher:DispatchAllEvents()
+BoltCore:Poll()
+BoltPoll:FixedUpdate()
+
+[07:45:59.166][Log]  Autosave complete. Time: 2023-08-03 07:45:59 Slot: 1
+[07:48:37.554][Log]  Client disconnected
+[07:48:37.554][Log]  Unregistering client 4 with steam id 76561197997335881, username Guppy
+[07:48:37.559][Log]  Server empty, idling...
+[07:48:37.559][Log]  Set target framerate: 5
+[07:55:58.832][Log]  Autosave complete. Time: 2023-08-03 07:55:58 Slot: 1
