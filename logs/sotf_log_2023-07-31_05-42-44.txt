@@ -734,3 +734,13 @@ BoltPoll:FixedUpdate()
 [05:35:57.912][Log]  Autosave complete. Time: 2023-08-03 05:35:57 Slot: 1
 [05:45:58.044][Log]  Autosave complete. Time: 2023-08-03 05:45:58 Slot: 1
 [05:55:58.193][Log]  Autosave complete. Time: 2023-08-03 05:55:58 Slot: 1
+[06:05:58.303][Log]  Autosave complete. Time: 2023-08-03 06:05:58 Slot: 1
+[06:15:58.268][Log]  Autosave complete. Time: 2023-08-03 06:15:58 Slot: 1
+[06:25:58.398][Log]  Autosave complete. Time: 2023-08-03 06:25:58 Slot: 1
+[06:28:16.894][Log]  Incoming client connection with auth ticket
+[06:28:16.894][Log]  Steam auth successful for client 3 with steam id 76561197997335881, username Guppy
+[06:28:16.916][Log]  Server waking up...
+[06:28:16.916][Log]  Set target framerate: 60
+[06:28:35.140][Log]  Sending blob of size 838765 on channel 2 to [Connection [EndPoint 192.168.1.1:60643 | 13882346955176209635]]
+[06:28:35.142][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:60643 | 13882346955176209635]]
+[06:28:35.215][Log]  Sending blob of size 253453 on channel 1 to [Connection [EndPoint 192.168.1.1:60643 | 13882346955176209635]]
