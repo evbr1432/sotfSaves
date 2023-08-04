@@ -1058,3 +1058,25 @@ BoltPoll:FixedUpdate()
 [07:36:19.734][Log]  Autosave complete. Time: 2023-08-04 07:36:19 Slot: 1
 [07:46:20.015][Log]  Autosave complete. Time: 2023-08-04 07:46:20 Slot: 1
 [07:56:20.062][Log]  Autosave complete. Time: 2023-08-04 07:56:20 Slot: 1
+[08:06:19.979][Log]  Autosave complete. Time: 2023-08-04 08:06:19 Slot: 1
+[08:16:19.637][Log]  Autosave complete. Time: 2023-08-04 08:16:19 Slot: 1
+[08:21:03.751][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[08:21:03.752][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[08:26:19.923][Log]  Autosave complete. Time: 2023-08-04 08:26:19 Slot: 1
