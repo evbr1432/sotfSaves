@@ -1091,3 +1091,17 @@ UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
 [08:42:41.808][Log]  Set target framerate: 5
 [08:46:19.461][Log]  Autosave complete. Time: 2023-08-04 08:46:19 Slot: 1
 [08:56:19.494][Log]  Autosave complete. Time: 2023-08-04 08:56:19 Slot: 1
+[09:06:19.556][Log]  Autosave complete. Time: 2023-08-04 09:06:19 Slot: 1
+[09:07:40.418][Log]  Incoming client connection with auth ticket
+[09:07:40.419][Log]  Steam auth successful for client 9 with steam id 76561197997335881, username Guppy
+[09:07:40.450][Log]  Server waking up...
+[09:07:40.450][Log]  Set target framerate: 60
+[09:07:59.254][Log]  Sending blob of size 1026379 on channel 2 to [Connection [EndPoint 192.168.1.1:65205 | 13882346955176214197]]
+[09:07:59.256][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:65205 | 13882346955176214197]]
+[09:07:59.373][Log]  Sending blob of size 368992 on channel 1 to [Connection [EndPoint 192.168.1.1:65205 | 13882346955176214197]]
+[09:08:51.724][Log]  Client disconnected
+[09:08:51.725][Log]  Unregistering client 9 with steam id 76561197997335881, username Guppy
+[09:08:51.730][Log]  Server empty, idling...
+[09:08:51.730][Log]  Set target framerate: 5
+[09:16:19.683][Log]  Autosave complete. Time: 2023-08-04 09:16:19 Slot: 1
+[09:26:19.715][Log]  Autosave complete. Time: 2023-08-04 09:26:19 Slot: 1
