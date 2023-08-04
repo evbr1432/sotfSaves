@@ -1080,3 +1080,14 @@ Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
 UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
 
 [08:26:19.923][Log]  Autosave complete. Time: 2023-08-04 08:26:19 Slot: 1
+[08:36:19.645][Log]  Autosave complete. Time: 2023-08-04 08:36:19 Slot: 1
+[08:42:05.967][Log]  Client disconnected
+[08:42:05.967][Log]  Unregistering client 7 with steam id 76561197997335881, username Guppy
+[08:42:18.825][Log]  Client disconnected
+[08:42:18.826][Log]  Unregistering client 6 with steam id 76561198018804056, username Borgadai
+[08:42:41.801][Log]  Client disconnected
+[08:42:41.801][Log]  Unregistering client 8 with steam id 76561198830758517, username GMN
+[08:42:41.807][Log]  Server empty, idling...
+[08:42:41.808][Log]  Set target framerate: 5
+[08:46:19.461][Log]  Autosave complete. Time: 2023-08-04 08:46:19 Slot: 1
+[08:56:19.494][Log]  Autosave complete. Time: 2023-08-04 08:56:19 Slot: 1
