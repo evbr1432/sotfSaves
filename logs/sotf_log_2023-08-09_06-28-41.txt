@@ -129,3 +129,176 @@
 [06:29:59.976][Log]  Loading progress: 73
 [06:30:00.491][Log]  Loading progress: 73
 [06:30:00.993][Log]  Loading progress: 73
+[06:30:01.525][Log]  Loading progress: 73
+[06:30:02.028][Log]  Loading progress: 73
+[06:30:02.532][Log]  Loading progress: 73
+[06:30:03.034][Log]  Loading progress: 73
+[06:30:03.561][Log]  Loading progress: 74
+[06:30:04.062][Log]  Loading progress: 74
+[06:30:04.565][Log]  Loading progress: 74
+[06:30:05.069][Log]  Loading progress: 74
+[06:30:05.573][Log]  Loading progress: 74
+[06:30:06.073][Log]  Loading progress: 74
+[06:30:06.601][Log]  Loading progress: 74
+[06:30:07.103][Log]  Loading progress: 74
+[06:30:07.637][Log]  Loading progress: 74
+[06:30:08.140][Log]  Loading progress: 74
+[06:30:08.642][Log]  Loading progress: 74
+[06:30:09.143][Log]  Loading progress: 74
+[06:30:09.646][Log]  Loading progress: 74
+[06:30:10.188][Log]  Loading progress: 74
+[06:30:10.702][Log]  Loading progress: 74
+[06:30:11.202][Log]  Loading progress: 74
+[06:30:11.704][Log]  Loading progress: 74
+[06:30:12.205][Log]  Loading progress: 74
+[06:30:12.708][Log]  Loading progress: 74
+[06:30:13.209][Log]  Loading progress: 74
+[06:30:13.711][Log]  Loading progress: 74
+[06:30:14.245][Log]  Loading progress: 74
+[06:30:14.778][Log]  Loading progress: 75
+[06:30:15.282][Log]  Loading progress: 75
+[06:30:15.814][Log]  Loading progress: 75
+[06:30:16.318][Log]  Loading progress: 75
+[06:30:16.822][Log]  Loading progress: 75
+[06:30:17.324][Log]  Loading progress: 75
+[06:30:17.825][Log]  Loading progress: 75
+[06:30:18.325][Log]  Loading progress: 75
+[06:30:18.827][Log]  Loading progress: 75
+[06:30:19.330][Log]  Loading progress: 75
+[06:30:19.831][Log]  Loading progress: 75
+[06:30:20.335][Log]  Loading progress: 75
+[06:30:20.836][Log]  Loading progress: 75
+[06:30:21.337][Log]  Loading progress: 75
+[06:30:21.838][Log]  Loading progress: 75
+[06:30:22.340][Log]  Loading progress: 75
+[06:30:22.847][Log]  Loading progress: 76
+[06:30:23.380][Log]  Loading progress: 76
+[06:30:23.884][Log]  Loading progress: 76
+[06:30:24.388][Log]  Loading progress: 76
+[06:30:24.893][Log]  Loading progress: 76
+[06:30:25.426][Log]  Loading progress: 76
+[06:30:25.927][Log]  Loading progress: 76
+[06:30:26.846][Log]  Loading progress: 76
+[06:30:27.362][Log]  Loading progress: 76
+[06:30:27.864][Log]  Loading progress: 76
+[06:30:28.365][Log]  Loading progress: 76
+[06:30:28.866][Log]  Loading progress: 76
+[06:30:29.368][Log]  Loading progress: 76
+[06:30:29.869][Log]  Loading progress: 76
+[06:30:30.962][Log]  Loading progress: 76
+[06:30:32.991][Log]  Loading progress: 76
+[06:30:33.523][Log]  Loading progress: 76
+[06:30:34.028][Log]  Loading progress: 76
+[06:30:34.530][Log]  Loading progress: 76
+[06:30:35.031][Log]  Loading progress: 76
+[06:30:35.536][Log]  Loading progress: 76
+[06:30:36.243][Log]  Loading progress: 77
+[06:30:37.974][Log]  Loading progress: 77
+[06:30:38.484][Log]  Loading progress: 77
+[06:30:38.991][Log]  Loading progress: 77
+[06:30:39.492][Log]  Loading progress: 77
+[06:30:40.025][Log]  Loading progress: 77
+[06:30:40.530][Log]  Loading progress: 77
+[06:30:42.894][Log]  Loading progress: 80
+[06:30:43.415][Log]  Loading progress: 100
+[06:30:43.918][Log]  Loading progress: 100
+[06:30:47.668][Log]  Autosave complete. Time: 2023-08-09 06:30:47 Slot: 1
+[06:30:48.030][Log]  Server empty, idling...
+[06:30:48.030][Log]  Set target framerate: 5
+[06:30:48.030][Log]  Dedicated server loaded.
+[06:31:23.112][Log]  Incoming client connection with auth ticket
+[06:31:23.113][Log]  Steam auth successful for client 2 with steam id 76561198830758517, username 13ananaMan
+[06:31:23.133][Log]  Server waking up...
+[06:31:23.133][Log]  Set target framerate: 60
+[06:31:27.786][Log]  Incoming client connection with auth ticket
+[06:31:27.786][Log]  Steam auth successful for client 3 with steam id 76561197997335881, username Guppy
+[06:31:36.064][Log]  Incoming client connection with auth ticket
+[06:31:36.065][Log]  Steam auth successful for client 4 with steam id 76561198018804056, username Borgadai
+[06:31:42.192][Log]  Sending blob of size 901610 on channel 2 to [Connection [EndPoint 71.211.91.107:54788 | 5175580911898514948]]
+[06:31:42.200][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 71.211.91.107:54788 | 5175580911898514948]]
+[06:31:42.328][Log]  Sending blob of size 368952 on channel 1 to [Connection [EndPoint 71.211.91.107:54788 | 5175580911898514948]]
+[06:31:49.355][Log]  Sending blob of size 901828 on channel 2 to [Connection [EndPoint 192.168.1.1:57831 | 13882346955176206823]]
+[06:31:49.357][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:57831 | 13882346955176206823]]
+[06:31:49.473][Log]  Sending blob of size 368952 on channel 1 to [Connection [EndPoint 192.168.1.1:57831 | 13882346955176206823]]
+[06:32:02.999][Log]  Sending blob of size 901828 on channel 2 to [Connection [EndPoint 24.9.50.114:56267 | 1731970996908383179]]
+[06:32:03.001][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 24.9.50.114:56267 | 1731970996908383179]]
+[06:32:03.110][Log]  Sending blob of size 368952 on channel 1 to [Connection [EndPoint 24.9.50.114:56267 | 1731970996908383179]]
+[06:40:48.188][Log]  Autosave complete. Time: 2023-08-09 06:40:48 Slot: 1
+[06:46:49.101][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[06:46:49.102][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[06:48:06.518][Exception]  System.NullReferenceException: Object reference not set to an instance of an object.
+  at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[06:48:06.519][Exception]    at Sons.Ai.Vail.Inventory.InventoryManager.ShowAttachedPickup (System.String itemType) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailActor.OnTagStarted (Sons.Ai.Vail.VailAnimStateTag stateTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailAnimEvents.SetAnimStateTag (Sons.Ai.Vail.VailAnimStateTag stateTag, System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Sons.Ai.Vail.VailStateMachineEvents.SendRangeEvent (Endnight.Animation.AnimStateEventBase ev, System.Boolean active, System.Int32 stateNameHash) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].UpdateStateEvents (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Endnight.Animation.SonsAnimStateEvents`1[T].OnStateUpdate (UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[06:49:16.712][Exception]  System.ArgumentException: Kernel 'loadTexelMap' not found.
+  at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[06:49:16.715][Exception]    at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[06:50:48.157][Log]  Autosave complete. Time: 2023-08-09 06:50:48 Slot: 1
