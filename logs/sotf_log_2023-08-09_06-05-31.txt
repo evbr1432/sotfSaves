@@ -1,0 +1,266 @@
+[06:05:39.448][Log]  [Self-Tests] Running self tests...
+[06:05:39.449][Log]  [Self-Tests] [AppId] App ID is correct.
+[06:05:39.449][Log]  [Self-Tests] [Settings] Validating game settings file format...
+[06:05:39.454][Log]  [Self-Tests] [Settings] Game settings file is valid.
+[06:05:39.454][Log]  [Self-Tests] [Config] Validating server config file and command line arguments...
+[06:05:39.456][Log]  Server configuration is valid. More... 
+{
+  "IpAddress": "0.0.0.0",
+  "GamePort": 8766,
+  "QueryPort": 27016,
+  "BlobSyncPort": 9700,
+  "ServerName": "BEEGSONS-9440",
+  "MaxPlayers": 8,
+  "Password": "deesh285",
+  "LanOnly": false,
+  "SaveSlot": 1,
+  "SaveMode": "Continue",
+  "GameMode": "Normal",
+  "SaveInterval": 600,
+  "IdleDayCycleSpeed": 0.0,
+  "IdleTargetFramerate": 5,
+  "ActiveTargetFramerate": 60,
+  "LogFilesEnabled": true,
+  "TimestampLogFilenames": true,
+  "TimestampLogEntries": true,
+  "SkipNetworkAccessibilityTest": false,
+  "GameSettings": {},
+  "CustomGameModeSettings": {}
+}
+[06:05:39.456][Log]  [Self-Tests] [Config] Dedicated Server configuration file is valid.
+[06:05:39.456][Log]  [Self-Tests] [Networking] Testing public accessibility...
+[06:05:42.105][Log]  [Self-Tests] [Networking] Testing server ports against public ip 24.8.87.201...
+[06:05:42.147][Log]  [Self-Tests] [Networking] UDP GamePort [8766] is open.
+[06:05:42.179][Log]  [Self-Tests] [Networking] UDP QueryPort [27016] is open.
+[06:05:42.213][Log]  [Self-Tests] [Networking] UDP BlobSyncPort [9700] is open.
+[06:05:42.214][Log]  [Self-Tests] Self tests passed.
+[06:05:42.214][Log]  [Dedicated] Starting Sons of the Forest Dedicated Server...
+[06:05:44.966][Log]  [Dedicated] Loading game settings.
+[06:05:44.966][Log]  [Dedicated] CustomGameModeSettings: no value found for Gameplay.TreeRegrowth. Using default value.
+[06:05:44.966][Log]  [Dedicated] CustomGameModeSettings: no value found for Structure.Damage. Using default value.
+[06:05:44.976][Log]  [Dedicated] SaveMode is Continue. Save found, loading save. Game mode is Normal
+[06:05:46.830][Log]  Steam server created.
+[06:05:46.830][Log]  Server name: BEEGSONS-9440
+[06:05:46.830][Log]  Max players: 8
+[06:05:46.830][Log]  Starting server...
+[06:06:03.322][Log]  Loading progress: 0
+[06:06:03.822][Log]  Loading progress: 3
+[06:06:04.325][Log]  Loading progress: 4
+[06:06:04.859][Log]  Loading progress: 4
+[06:06:05.359][Log]  Loading progress: 4
+[06:06:05.865][Log]  Loading progress: 5
+[06:06:06.367][Log]  Loading progress: 5
+[06:06:06.869][Log]  Loading progress: 5
+[06:06:07.370][Log]  Loading progress: 6
+[06:06:07.871][Log]  Loading progress: 6
+[06:06:08.373][Log]  Loading progress: 6
+[06:06:08.874][Log]  Loading progress: 6
+[06:06:09.376][Log]  Loading progress: 6
+[06:06:09.878][Log]  Loading progress: 6
+[06:06:10.379][Log]  Loading progress: 6
+[06:06:10.880][Log]  Loading progress: 6
+[06:06:11.386][Log]  Loading progress: 6
+[06:06:11.887][Log]  Loading progress: 6
+[06:06:12.391][Log]  Loading progress: 6
+[06:06:12.894][Log]  Loading progress: 6
+[06:06:13.395][Log]  Loading progress: 7
+[06:06:13.896][Log]  Loading progress: 14
+[06:06:14.397][Log]  Loading progress: 18
+[06:06:14.900][Log]  Loading progress: 21
+[06:06:15.402][Log]  Loading progress: 25
+[06:06:15.904][Log]  Loading progress: 28
+[06:06:16.406][Log]  Loading progress: 35
+[06:06:16.925][Log]  Loading progress: 36
+[06:06:17.435][Log]  Loading progress: 36
+[06:06:17.936][Log]  Loading progress: 38
+[06:06:18.438][Log]  Loading progress: 39
+[06:06:18.939][Log]  Loading progress: 40
+[06:06:19.442][Log]  Loading progress: 42
+[06:06:19.944][Log]  Loading progress: 43
+[06:06:20.446][Log]  Loading progress: 47
+[06:06:20.948][Log]  Loading progress: 57
+[06:06:21.449][Log]  Loading progress: 61
+[06:06:21.950][Log]  Loading progress: 65
+[06:06:22.451][Log]  Loading progress: 72
+[06:06:22.956][Log]  Loading progress: 72
+[06:06:23.464][Log]  Loading progress: 72
+[06:06:23.990][Log]  Loading progress: 72
+[06:06:24.492][Log]  Loading progress: 72
+[06:06:25.021][Log]  Loading progress: 72
+[06:06:25.527][Log]  Loading progress: 72
+[06:06:26.029][Log]  Loading progress: 72
+[06:06:26.531][Log]  Loading progress: 72
+[06:06:27.032][Log]  Loading progress: 72
+[06:06:27.534][Log]  Loading progress: 72
+[06:06:28.717][Log]  Loading progress: 72
+[06:06:29.248][Log]  Loading progress: 72
+[06:06:29.749][Log]  Loading progress: 72
+[06:06:30.263][Log]  Loading progress: 72
+[06:06:30.764][Log]  Loading progress: 72
+[06:06:31.266][Log]  Loading progress: 72
+[06:06:31.768][Log]  Loading progress: 72
+[06:06:32.270][Log]  Loading progress: 72
+[06:06:32.774][Log]  Loading progress: 72
+[06:06:33.276][Log]  Loading progress: 72
+[06:06:33.778][Log]  Loading progress: 72
+[06:06:34.281][Log]  Loading progress: 72
+[06:06:34.782][Log]  Loading progress: 72
+[06:06:35.283][Log]  Loading progress: 72
+[06:06:35.783][Log]  Loading progress: 72
+[06:06:36.285][Log]  Loading progress: 72
+[06:06:36.786][Log]  Loading progress: 72
+[06:06:37.287][Log]  Loading progress: 72
+[06:06:37.790][Log]  Loading progress: 72
+[06:06:44.189][Log]  Loading progress: 72
+[06:06:44.692][Log]  Loading progress: 72
+[06:06:48.795][Log]  Loading progress: 72
+[06:06:49.325][Log]  Loading progress: 72
+[06:06:49.843][Log]  Loading progress: 72
+[06:06:50.368][Log]  Loading progress: 72
+[06:06:50.870][Log]  Loading progress: 73
+[06:06:51.372][Log]  Loading progress: 73
+[06:06:51.873][Log]  Loading progress: 73
+[06:06:52.376][Log]  Loading progress: 73
+[06:06:52.878][Log]  Loading progress: 73
+[06:06:53.380][Log]  Loading progress: 73
+[06:06:53.914][Log]  Loading progress: 73
+[06:06:54.433][Log]  Loading progress: 73
+[06:06:54.937][Log]  Loading progress: 73
+[06:06:55.440][Log]  Loading progress: 73
+[06:06:55.940][Log]  Loading progress: 73
+[06:06:56.442][Log]  Loading progress: 73
+[06:06:56.974][Log]  Loading progress: 73
+[06:06:57.479][Log]  Loading progress: 73
+[06:06:58.034][Log]  Loading progress: 74
+[06:06:58.549][Log]  Loading progress: 74
+[06:06:59.050][Log]  Loading progress: 74
+[06:06:59.560][Log]  Loading progress: 74
+[06:07:00.091][Log]  Loading progress: 74
+[06:07:00.595][Log]  Loading progress: 74
+[06:07:01.097][Log]  Loading progress: 74
+[06:07:01.598][Log]  Loading progress: 74
+[06:07:02.121][Log]  Loading progress: 74
+[06:07:02.628][Log]  Loading progress: 74
+[06:07:03.128][Log]  Loading progress: 74
+[06:07:03.630][Log]  Loading progress: 74
+[06:07:04.133][Log]  Loading progress: 74
+[06:07:04.635][Log]  Loading progress: 74
+[06:07:05.137][Log]  Loading progress: 74
+[06:07:05.640][Log]  Loading progress: 74
+[06:07:06.179][Log]  Loading progress: 74
+[06:07:06.693][Log]  Loading progress: 74
+[06:07:07.193][Log]  Loading progress: 74
+[06:07:07.695][Log]  Loading progress: 74
+[06:07:08.196][Log]  Loading progress: 74
+[06:07:08.699][Log]  Loading progress: 74
+[06:07:09.200][Log]  Loading progress: 74
+[06:07:09.701][Log]  Loading progress: 74
+[06:07:10.212][Log]  Loading progress: 75
+[06:07:10.715][Log]  Loading progress: 75
+[06:07:11.247][Log]  Loading progress: 75
+[06:07:11.752][Log]  Loading progress: 75
+[06:07:12.253][Log]  Loading progress: 75
+[06:07:12.754][Log]  Loading progress: 75
+[06:07:13.255][Log]  Loading progress: 75
+[06:07:13.759][Log]  Loading progress: 75
+[06:07:14.260][Log]  Loading progress: 75
+[06:07:14.762][Log]  Loading progress: 75
+[06:07:15.264][Log]  Loading progress: 75
+[06:07:15.766][Log]  Loading progress: 75
+[06:07:16.267][Log]  Loading progress: 75
+[06:07:16.768][Log]  Loading progress: 75
+[06:07:17.277][Log]  Loading progress: 76
+[06:07:17.778][Log]  Loading progress: 76
+[06:07:18.279][Log]  Loading progress: 76
+[06:07:18.781][Log]  Loading progress: 76
+[06:07:19.283][Log]  Loading progress: 76
+[06:07:19.786][Log]  Loading progress: 76
+[06:07:20.287][Log]  Loading progress: 76
+[06:07:20.790][Log]  Loading progress: 76
+[06:07:21.843][Log]  Loading progress: 76
+[06:07:22.362][Log]  Loading progress: 76
+[06:07:22.864][Log]  Loading progress: 76
+[06:07:23.368][Log]  Loading progress: 76
+[06:07:23.870][Log]  Loading progress: 76
+[06:07:24.372][Log]  Loading progress: 76
+[06:07:24.874][Log]  Loading progress: 76
+[06:07:25.375][Log]  Loading progress: 76
+[06:07:26.106][Log]  Loading progress: 76
+[06:07:28.096][Log]  Loading progress: 76
+[06:07:28.612][Log]  Loading progress: 76
+[06:07:29.117][Log]  Loading progress: 76
+[06:07:29.649][Log]  Loading progress: 76
+[06:07:30.183][Log]  Loading progress: 76
+[06:07:30.685][Log]  Loading progress: 76
+[06:07:33.788][Log]  Loading progress: 77
+[06:07:34.299][Log]  Loading progress: 77
+[06:07:34.802][Log]  Loading progress: 77
+[06:07:35.303][Log]  Loading progress: 77
+[06:07:35.806][Log]  Loading progress: 77
+[06:07:36.336][Log]  Loading progress: 77
+[06:07:39.031][Log]  Loading progress: 80
+[06:07:39.558][Log]  Loading progress: 100
+[06:07:43.390][Log]  Autosave complete. Time: 2023-08-09 06:07:43 Slot: 1
+[06:07:43.747][Log]  Server empty, idling...
+[06:07:43.747][Log]  Set target framerate: 5
+[06:07:43.747][Log]  Dedicated server loaded.
+[06:08:14.621][Log]  Incoming client connection with auth ticket
+[06:08:14.624][Log]  Steam auth successful for client 2 with steam id 76561197997335881, username Guppy
+[06:08:14.641][Log]  Server waking up...
+[06:08:14.641][Log]  Set target framerate: 60
+[06:08:16.722][Log]  Incoming client connection with auth ticket
+[06:08:16.722][Log]  Steam auth successful for client 3 with steam id 76561198830758517, username 13ananaMan
+[06:08:32.214][Log]  Sending blob of size 901610 on channel 2 to [Connection [EndPoint 192.168.1.1:59826 | 13882346955176208818]]
+[06:08:32.222][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 192.168.1.1:59826 | 13882346955176208818]]
+[06:08:32.356][Log]  Sending blob of size 368952 on channel 1 to [Connection [EndPoint 192.168.1.1:59826 | 13882346955176208818]]
+[06:08:34.594][Log]  Sending blob of size 901828 on channel 2 to [Connection [EndPoint 71.211.91.107:50582 | 5175580911898510742]]
+[06:08:34.596][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 71.211.91.107:50582 | 5175580911898510742]]
+[06:08:34.725][Log]  Sending blob of size 368952 on channel 1 to [Connection [EndPoint 71.211.91.107:50582 | 5175580911898510742]]
+[06:09:19.849][Exception]  System.ArgumentException: Kernel 'loadTexelMap' not found.
+  at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[06:09:19.851][Exception]    at FluidSimulation.FluidSimulationManager.cacheShaderIDs (UnityEngine.ComputeShader compute) [0x00000] in <00000000000000000000000000000000>:0 
+  at FluidSimulation.FluidSimulator.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters.Instantiate[TObject] (TObject source) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider.ProvideInstance (UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceManager+InstanceOperation.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].InvokeExecute () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1+<>c__DisplayClass61_0[TObject].<remove_CompletedTypeless>b__0 (UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[TObject] s) [0x00000] in <00000000000000000000000000000000>:0 
+  at DelegateList`1[T].Invoke (T res) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1[TObject].Complete (TObject result, System.Boolean success, System.Exception exception, System.Boolean releaseDependenciesOnFailure) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1[TObject].ProviderCompleted[T] (T result, System.Boolean status, System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider+InternalOp.ActionComplete (UnityEngine.AsyncOperation obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+Endnight.Utilities.Dedicated.DsLogHandler:LogException(Exception, Object)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass61_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[06:09:34.488][Log]  Incoming client connection with auth ticket
+[06:09:34.488][Log]  Steam auth successful for client 4 with steam id 76561198018804056, username Borgadai
+[06:10:01.501][Log]  Sending blob of size 901828 on channel 2 to [Connection [EndPoint 24.9.50.114:57907 | 1731970996908384819]]
+[06:10:01.503][Log]  Sending blob of size 10698 on channel 3 to [Connection [EndPoint 24.9.50.114:57907 | 1731970996908384819]]
+[06:10:01.692][Log]  Sending blob of size 368930 on channel 1 to [Connection [EndPoint 24.9.50.114:57907 | 1731970996908384819]]
+[06:12:19.952][Log]  Client disconnected
+[06:12:19.952][Log]  Unregistering client 2 with steam id 76561197997335881, username Guppy
+[06:12:27.022][Log]  Client disconnected
+[06:12:27.023][Log]  Unregistering client 3 with steam id 76561198830758517, username 13ananaMan

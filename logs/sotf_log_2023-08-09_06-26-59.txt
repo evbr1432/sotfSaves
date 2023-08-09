@@ -1,0 +1,33 @@
+[06:27:07.203][Log]  [Self-Tests] Running self tests...
+[06:27:07.205][Log]  [Self-Tests] [AppId] App ID is correct.
+[06:27:07.205][Log]  [Self-Tests] [Settings] Validating game settings file format...
+[06:27:07.211][Log]  [Self-Tests] [Settings] Game settings file is valid.
+[06:27:07.211][Log]  [Self-Tests] [Config] Validating server config file and command line arguments...
+[06:27:07.213][Log]  Server configuration is valid. More... 
+{
+  "IpAddress": "0.0.0.0",
+  "GamePort": 8766,
+  "QueryPort": 27016,
+  "BlobSyncPort": 9700,
+  "ServerName": "BEEGSONS-9440",
+  "MaxPlayers": 8,
+  "Password": "deesh285",
+  "LanOnly": false,
+  "SaveSlot": 1,
+  "SaveMode": "Continue",
+  "GameMode": "Normal",
+  "SaveInterval": 600,
+  "IdleDayCycleSpeed": 0.0,
+  "IdleTargetFramerate": 5,
+  "ActiveTargetFramerate": 60,
+  "LogFilesEnabled": true,
+  "TimestampLogFilenames": true,
+  "TimestampLogEntries": true,
+  "SkipNetworkAccessibilityTest": false,
+  "GameSettings": {},
+  "CustomGameModeSettings": {}
+}
+[06:27:07.213][Log]  [Self-Tests] [Config] Dedicated Server configuration file is valid.
+[06:27:07.214][Log]  [Self-Tests] [Networking] Testing public accessibility...
+[06:27:09.771][Log]  [Self-Tests] [Networking] Testing server ports against public ip 24.8.87.201...
+[06:27:09.813][Log]  [Self-Tests] [Networking] UDP GamePort [8766] is open.
