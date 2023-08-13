@@ -1,1 +1,1 @@
-{"Version":"0.0.0","Data":{"WeatherSystem":"{\"Version\":\"0.0.0\",\"_cloudState\":1,\"_currentSeason\":2,\"_startingDayOffset\":5.0}"}}
+{"Version":"0.0.0","Data":{"WeatherSystem":"{\"Version\":\"0.0.0\",\"_isRaining\":true,\"_cloudState\":3,\"_currentRainType\":1,\"_currentSeason\":3,\"_startingDayOffset\":5.0,\"_wetnessVelocity\":3.866889E-07,\"_wetnessCurrent\":0.9999961,\"_wetnessTarget\":1.0}"}}
